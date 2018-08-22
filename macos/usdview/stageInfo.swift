@@ -35,9 +35,15 @@ func getPrims(stagePath: String) -> [UsdPrimInfo] {
     return result
 }
 
+enum UsdStageInterpolation {
+    case held
+    case linear
+}
+
 struct UsdStageInfo {
     let startTimeCode : Double
     let endTimeCode : Double
+    let interpolationType : UsdStageInterpolation
 }
 
 func getStartTimeCode(stagePath: String) -> Double {
@@ -48,7 +54,17 @@ func getEndTimeCode(stagePath: String) -> Double {
     return _getEndTimeCode(stagePath)
 }
 
+func getInterpolationType(stagePath: String) -> UsdStageInterpolation {
+    let raw = String(cString: _getInterpolationType(stagePath))
+    if raw == "Held" {
+        return UsdStageInterpolation.held
+    } else {
+        return UsdStageInterpolation.linear
+    }
+}
+
 func getStageInfo(stagePath: String) -> UsdStageInfo {
     return UsdStageInfo(startTimeCode: _getStartTimeCode(stagePath),
-                        endTimeCode: _getEndTimeCode(stagePath))
+                        endTimeCode: _getEndTimeCode(stagePath),
+                        interpolationType: getInterpolationType(stagePath: stagePath))
 }

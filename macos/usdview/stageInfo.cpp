@@ -72,3 +72,11 @@ double _getEndTimeCode(const char* sPath)
     auto stage = pxr::UsdStage::Open(sPath);
     return stage->GetEndTimeCode();
 }
+
+const char* _getInterpolationType(const char* sPath)
+{
+    auto stage = pxr::UsdStage::Open(sPath);
+    auto interp = stage->GetInterpolationType();
+    return interp == 0 ? "Held" : "Linear";
+}
+
