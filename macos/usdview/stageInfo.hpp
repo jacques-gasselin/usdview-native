@@ -7,15 +7,17 @@
 extern "C" {
 #endif // __cplusplus
     
-    const char** _getPrimInfo(const char* sPath, int* numPrims);
+    const char** _getPrimInfo(void* stagePtr, int* numPrims);
     
-    double _getStartTimeCode(const char* sPath);
+    double _getStartTimeCode(void* stagePtr);
     
-    double _getEndTimeCode(const char* sPath);
+    double _getEndTimeCode(void* stagePtr);
     
-    double _getTimeCodesPerSecond(const char* sPath);
+    double _getTimeCodesPerSecond(void* stagePtr);
     
-    const char* _getInterpolationType(const char* sPath);
+    const char* _getInterpolationType(void* stagePtr);
+    
+    void* _openStage(const char* sPath);
     
 #if __cplusplus
 }
