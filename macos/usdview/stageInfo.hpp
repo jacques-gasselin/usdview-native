@@ -9,6 +9,10 @@ extern "C" {
     
     const char** _getPrimInfo(const char* sPath, int* numPrims);
     
+    double _getStartTimeCode(const char* sPath);
+    
+    double _getEndTimeCode(const char* sPath);
+    
 #if __cplusplus
 }
 #endif // __cplusplus

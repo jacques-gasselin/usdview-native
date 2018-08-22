@@ -60,3 +60,15 @@ const char** _getPrimInfo(const char* sPath, int* numPrims)
     }
     return stream;
 }
+
+double _getStartTimeCode(const char* sPath)
+{
+    auto stage = pxr::UsdStage::Open(sPath);
+    return stage->GetStartTimeCode();
+}
+
+double _getEndTimeCode(const char* sPath)
+{
+    auto stage = pxr::UsdStage::Open(sPath);
+    return stage->GetEndTimeCode();
+}

@@ -34,3 +34,21 @@ func getPrims(stagePath: String) -> [UsdPrimInfo] {
     
     return result
 }
+
+struct UsdStageInfo {
+    let startTimeCode : Double
+    let endTimeCode : Double
+}
+
+func getStartTimeCode(stagePath: String) -> Double {
+    return _getStartTimeCode(stagePath)
+}
+
+func getEndTimeCode(stagePath: String) -> Double {
+    return _getEndTimeCode(stagePath)
+}
+
+func getStageInfo(stagePath: String) -> UsdStageInfo {
+    return UsdStageInfo(startTimeCode: _getStartTimeCode(stagePath),
+                        endTimeCode: _getEndTimeCode(stagePath))
+}
