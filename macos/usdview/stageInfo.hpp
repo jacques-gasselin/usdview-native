@@ -13,7 +13,10 @@ extern "C" {
     
     double _getEndTimeCode(const char* sPath);
     
+    double _getTimeCodesPerSecond(const char* sPath);
+    
     const char* _getInterpolationType(const char* sPath);
+    
 #if __cplusplus
 }
 #endif // __cplusplus

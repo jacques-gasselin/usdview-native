@@ -80,3 +80,8 @@ const char* _getInterpolationType(const char* sPath)
     return interp == 0 ? "Held" : "Linear";
 }
 
+double _getTimeCodesPerSecond(const char* sPath)
+{
+    auto stage = pxr::UsdStage::Open(sPath);
+    return stage->GetTimeCodesPerSecond();
+}

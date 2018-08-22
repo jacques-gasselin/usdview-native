@@ -43,6 +43,7 @@ enum UsdStageInterpolation {
 struct UsdStageInfo {
     let startTimeCode : Double
     let endTimeCode : Double
+    let timeCodesPerSecond : Double
     let interpolationType : UsdStageInterpolation
 }
 
@@ -52,6 +53,10 @@ func getStartTimeCode(stagePath: String) -> Double {
 
 func getEndTimeCode(stagePath: String) -> Double {
     return _getEndTimeCode(stagePath)
+}
+
+func getTimeCodesPerSecond(stagePath: String) -> Double {
+    return _getTimeCodesPerSecond(stagePath)
 }
 
 func getInterpolationType(stagePath: String) -> UsdStageInterpolation {
@@ -66,5 +71,6 @@ func getInterpolationType(stagePath: String) -> UsdStageInterpolation {
 func getStageInfo(stagePath: String) -> UsdStageInfo {
     return UsdStageInfo(startTimeCode: _getStartTimeCode(stagePath),
                         endTimeCode: _getEndTimeCode(stagePath),
+                        timeCodesPerSecond: _getTimeCodesPerSecond(stagePath),
                         interpolationType: getInterpolationType(stagePath: stagePath))
 }
