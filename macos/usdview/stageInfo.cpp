@@ -77,3 +77,8 @@ void* _openStage(const char* sPath)
     static auto stage = pxr::UsdStage::Open(sPath);
     return boost::get_pointer(stage);
 }
+
+void _reloadStage(void* stagePtr)
+{
+    ((pxr::UsdStage*)stagePtr)->Reload();
+}

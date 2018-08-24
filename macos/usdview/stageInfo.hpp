@@ -19,6 +19,8 @@ extern "C" {
     
     void* _openStage(const char* sPath);
     
+    void _reloadStage(void* stagePtr);
+    
 #if __cplusplus
 }
 #endif // __cplusplus

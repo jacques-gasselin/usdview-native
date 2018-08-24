@@ -57,6 +57,7 @@ struct SdfPath {
 }
 
 enum UsdPrimType {
+    // TODO: Fill out with remaining types
     case mesh
     case xform
     case untyped
@@ -135,4 +136,7 @@ struct UsdStageInfo {
         return result
     }
     
+    func reload() {
+        _reloadStage(ptr)
+    }
 }
