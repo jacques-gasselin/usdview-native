@@ -54,6 +54,10 @@ struct SdfPath {
     func getDepth() -> Int {
         return components.count
     }
+    
+    func getString() -> String {
+        return "/" + components.joined(separator: "/")
+    }
 }
 
 enum UsdPrimType {
@@ -138,5 +142,13 @@ struct UsdStageInfo {
     
     func reload() {
         _reloadStage(ptr)
+    }
+    
+    func setDefaultPrim(path: SdfPath) {
+        _setDefaultPrim(ptr, path.getString())
+    }
+    
+    func getDefaultPrim() -> String {
+        return String(cString: _getDefaultPrim(ptr))
     }
 }

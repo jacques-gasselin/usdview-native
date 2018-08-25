@@ -21,6 +21,10 @@ extern "C" {
     
     void _reloadStage(void* stagePtr);
     
+    void _setDefaultPrim(void* stagePtr, const char* primPath);
+    
+    const char* _getDefaultPrim(void* stagePtr);
+    
 #if __cplusplus
 }
 #endif // __cplusplus
