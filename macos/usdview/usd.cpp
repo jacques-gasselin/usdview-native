@@ -1,4 +1,4 @@
-#include "stageInfo.hpp"
+#include "usd.hpp"
 
 #include "pxr/pxr.h"
 #include "pxr/usd/usd/prim.h"

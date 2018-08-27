@@ -1,5 +1,5 @@
-#ifndef stageInfo_h
-#define stageInfo_h
+#ifndef USD_BINDING_HEADER_HPP
+#define USD_BINDING_HEADER_HPP
 
 #include <stdio.h>
 
@@ -29,4 +29,4 @@ extern "C" {
 }
 #endif // __cplusplus
 
-#endif // stageInfo_h
+#endif // USD_BINDING_HEADER_HPP
