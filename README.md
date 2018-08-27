@@ -1,3 +1,5 @@
+> Note: This repo is currently a work in progress, when something stable is ready, we'll take down this note.
+
 # usdview-native
 Workalike for usdview for those who want to avoid Qt and Python
 
