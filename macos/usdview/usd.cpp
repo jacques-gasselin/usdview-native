@@ -1,4 +1,4 @@
-#include "stageInfo.hpp"
+#include "usd.hpp"
 
 #include "pxr/pxr.h"
 #include "pxr/usd/usd/prim.h"
@@ -81,4 +81,16 @@ void* _openStage(const char* sPath)
 void _reloadStage(void* stagePtr)
 {
     ((pxr::UsdStage*)stagePtr)->Reload();
+}
+
+void _setDefaultPrim(void* stagePtr, const char* primPath)
+{
+    auto path = pxr::SdfPath(primPath);
+    auto prim = ((pxr::UsdStage*)stagePtr)->GetPrimAtPath(path);
+    ((pxr::UsdStage*)stagePtr)->SetDefaultPrim(prim);
+}
+
+const char* _getDefaultPrim(void* stagePtr)
+{
+    return ((pxr::UsdStage*)stagePtr)->GetDefaultPrim().GetPath().GetText();
 }
