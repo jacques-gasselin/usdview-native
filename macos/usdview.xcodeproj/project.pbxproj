@@ -12,39 +12,28 @@
 		6B46E8AF21271E330057FEEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AD21271E330057FEEA /* MainMenu.xib */; };
 		6B46E8BB21271E330057FEEA /* usdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* usdviewTests.swift */; };
 		6B46E8C621271E330057FEEA /* usdviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8C521271E330057FEEA /* usdviewUITests.swift */; };
-		DAB7366321293572003E070F /* stageInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB7366121293572003E070F /* stageInfo.cpp */; };
-		DAB7368421293662003E070F /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366521293661003E070F /* libtbbmalloc.dylib */; };
-		DAB7368521293662003E070F /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366621293661003E070F /* libtbbmalloc_proxy.dylib */; };
-		DAB7368621293662003E070F /* libosdCPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366721293661003E070F /* libosdCPU.a */; };
-		DAB7368721293662003E070F /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366821293661003E070F /* libIlmImf-2_2.22.0.0.dylib */; };
-		DAB7368821293662003E070F /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366921293661003E070F /* libIlmThread-2_2.12.0.0.dylib */; };
-		DAB7368921293662003E070F /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366A21293661003E070F /* libosdGPU.3.1.1.dylib */; };
-		DAB7368A21293662003E070F /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366B21293661003E070F /* libboost_thread.dylib */; };
-		DAB7368B21293662003E070F /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366C21293661003E070F /* libosdCPU.3.1.1.dylib */; };
-		DAB7368C21293662003E070F /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366D21293661003E070F /* libboost_system.dylib */; };
-		DAB7368D21293662003E070F /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366E21293662003E070F /* libboost_date_time.dylib */; };
-		DAB7368E21293662003E070F /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7366F21293662003E070F /* libImath-2_2.12.0.0.dylib */; };
-		DAB7368F21293662003E070F /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367021293662003E070F /* libz.a */; };
-		DAB7369021293662003E070F /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367121293662003E070F /* libboost_filesystem.dylib */; };
-		DAB7369121293662003E070F /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367221293662003E070F /* libboost_atomic.dylib */; };
-		DAB7369221293662003E070F /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367321293662003E070F /* libz.1.2.11.dylib */; };
-		DAB7369321293662003E070F /* libIexMath-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367421293662003E070F /* libIexMath-2_2.la */; };
-		DAB7369421293663003E070F /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367521293662003E070F /* libboost_program_options.dylib */; };
-		DAB7369521293663003E070F /* libusd_ms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367621293662003E070F /* libusd_ms.dylib */; settings = {ATTRIBUTES = (Required, ); }; };
-		DAB7369621293663003E070F /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367721293662003E070F /* libIex-2_2.12.0.0.dylib */; };
-		DAB7369721293663003E070F /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367821293662003E070F /* libboost_regex.dylib */; };
-		DAB7369821293663003E070F /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367921293662003E070F /* libIexMath-2_2.12.0.0.dylib */; };
-		DAB7369921293663003E070F /* libImath-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367A21293662003E070F /* libImath-2_2.la */; };
-		DAB7369A21293663003E070F /* libHalf.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367B21293662003E070F /* libHalf.la */; };
-		DAB7369B21293663003E070F /* libIlmThread-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367C21293662003E070F /* libIlmThread-2_2.la */; };
-		DAB7369C21293663003E070F /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367D21293662003E070F /* libtbb.dylib */; };
-		DAB7369D21293663003E070F /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367E21293662003E070F /* libIlmImfUtil-2_2.22.0.0.dylib */; };
-		DAB7369E21293663003E070F /* libosdGPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7367F21293662003E070F /* libosdGPU.a */; };
-		DAB7369F21293663003E070F /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7368021293662003E070F /* libGLEW.2.0.0.dylib */; };
-		DAB736A021293663003E070F /* libIex-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7368121293662003E070F /* libIex-2_2.la */; };
-		DAB736A121293663003E070F /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7368221293662003E070F /* libGLEW.a */; };
-		DAB736A221293663003E070F /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB7368321293662003E070F /* libHalf.12.0.0.dylib */; };
-		DAB736A4212947D5003E070F /* stageInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB736A3212947D5003E070F /* stageInfo.swift */; };
+		6B72C77A2139C0E400DB1674 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7642139C0E300DB1674 /* libboost_regex.dylib */; };
+		6B72C77B2139C0E400DB1674 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7652139C0E300DB1674 /* libboost_thread.dylib */; };
+		6B72C77C2139C0E400DB1674 /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */; };
+		6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
+		6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
+		6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
+		6B72C7802139C0E400DB1674 /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */; };
+		6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */; };
+		6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76C2139C0E300DB1674 /* libboost_system.dylib */; };
+		6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
+		6B72C7842139C0E400DB1674 /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */; };
+		6B72C7852139C0E400DB1674 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */; };
+		6B72C7862139C0E400DB1674 /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */; };
+		6B72C7872139C0E400DB1674 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7712139C0E300DB1674 /* libtbb.dylib */; };
+		6B72C7882139C0E400DB1674 /* libusd_ms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; };
+		6B72C7892139C0E400DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
+		6B72C78A2139C0E400DB1674 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
+		6B72C78B2139C0E400DB1674 /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */; };
+		6B72C78C2139C0E400DB1674 /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */; };
+		6B72C78D2139C0E400DB1674 /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
+		6B72C78E2139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */; };
+		6B72C78F2139C0E400DB1674 /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,41 +66,29 @@
 		6B46E8C121271E330057FEEA /* usdviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usdviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B46E8C521271E330057FEEA /* usdviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usdviewUITests.swift; sourceTree = "<group>"; };
 		6B46E8C721271E330057FEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B72C7642139C0E300DB1674 /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = deps/lib/libboost_regex.dylib; sourceTree = "<group>"; };
+		6B72C7652139C0E300DB1674 /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = deps/lib/libboost_thread.dylib; sourceTree = "<group>"; };
+		6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = deps/lib/libboost_program_options.dylib; sourceTree = "<group>"; };
+		6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.0.0.dylib"; path = "deps/lib/libIlmThread-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImf-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
+		6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdGPU.3.1.1.dylib; path = deps/lib/libosdGPU.3.1.1.dylib; sourceTree = "<group>"; };
+		6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc_proxy.dylib; path = deps/lib/libtbbmalloc_proxy.dylib; sourceTree = "<group>"; };
+		6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = deps/lib/libboost_filesystem.dylib; sourceTree = "<group>"; };
+		6B72C76C2139C0E300DB1674 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = deps/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.11.dylib; path = deps/lib/libz.1.2.11.dylib; sourceTree = "<group>"; };
+		6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.0.0.dylib"; path = "deps/lib/libIex-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = deps/lib/libtbbmalloc.dylib; sourceTree = "<group>"; };
+		6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_atomic.dylib; path = deps/lib/libboost_atomic.dylib; sourceTree = "<group>"; };
+		6B72C7712139C0E300DB1674 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = deps/lib/libtbb.dylib; sourceTree = "<group>"; };
+		6B72C7722139C0E300DB1674 /* libusd_ms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusd_ms.dylib; path = deps/lib/libusd_ms.dylib; sourceTree = "<group>"; };
+		6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImfUtil-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
+		6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = deps/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.0.0.dylib; path = deps/lib/libHalf.12.0.0.dylib; sourceTree = "<group>"; };
+		6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = deps/lib/libboost_date_time.dylib; sourceTree = "<group>"; };
+		6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdCPU.3.1.1.dylib; path = deps/lib/libosdCPU.3.1.1.dylib; sourceTree = "<group>"; };
+		6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.0.0.dylib"; path = "deps/lib/libIexMath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.0.0.dylib"; path = "deps/lib/libImath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
 		DAB7366021293572003E070F /* usdview-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "usdview-Bridging-Header.h"; sourceTree = "<group>"; };
-		DAB7366121293572003E070F /* stageInfo.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = stageInfo.cpp; sourceTree = "<group>"; };
-		DAB7366221293572003E070F /* stageInfo.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = stageInfo.hpp; sourceTree = "<group>"; };
-		DAB7366521293661003E070F /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libtbbmalloc.dylib"; sourceTree = "<group>"; };
-		DAB7366621293661003E070F /* libtbbmalloc_proxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc_proxy.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libtbbmalloc_proxy.dylib"; sourceTree = "<group>"; };
-		DAB7366721293661003E070F /* libosdCPU.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosdCPU.a; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libosdCPU.a"; sourceTree = "<group>"; };
-		DAB7366821293661003E070F /* libIlmImf-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIlmImf-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7366921293661003E070F /* libIlmThread-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIlmThread-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7366A21293661003E070F /* libosdGPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdGPU.3.1.1.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libosdGPU.3.1.1.dylib"; sourceTree = "<group>"; };
-		DAB7366B21293661003E070F /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_thread.dylib"; sourceTree = "<group>"; };
-		DAB7366C21293661003E070F /* libosdCPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdCPU.3.1.1.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libosdCPU.3.1.1.dylib"; sourceTree = "<group>"; };
-		DAB7366D21293661003E070F /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_system.dylib"; sourceTree = "<group>"; };
-		DAB7366E21293662003E070F /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_date_time.dylib"; sourceTree = "<group>"; };
-		DAB7366F21293662003E070F /* libImath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libImath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7367021293662003E070F /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libz.a"; sourceTree = "<group>"; };
-		DAB7367121293662003E070F /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_filesystem.dylib"; sourceTree = "<group>"; };
-		DAB7367221293662003E070F /* libboost_atomic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_atomic.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_atomic.dylib"; sourceTree = "<group>"; };
-		DAB7367321293662003E070F /* libz.1.2.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.11.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libz.1.2.11.dylib"; sourceTree = "<group>"; };
-		DAB7367421293662003E070F /* libIexMath-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIexMath-2_2.la"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIexMath-2_2.la"; sourceTree = "<group>"; };
-		DAB7367521293662003E070F /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_program_options.dylib"; sourceTree = "<group>"; };
-		DAB7367621293662003E070F /* libusd_ms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusd_ms.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libusd_ms.dylib"; sourceTree = "<group>"; };
-		DAB7367721293662003E070F /* libIex-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIex-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7367821293662003E070F /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libboost_regex.dylib"; sourceTree = "<group>"; };
-		DAB7367921293662003E070F /* libIexMath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIexMath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7367A21293662003E070F /* libImath-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libImath-2_2.la"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libImath-2_2.la"; sourceTree = "<group>"; };
-		DAB7367B21293662003E070F /* libHalf.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libHalf.la; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libHalf.la"; sourceTree = "<group>"; };
-		DAB7367C21293662003E070F /* libIlmThread-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIlmThread-2_2.la"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIlmThread-2_2.la"; sourceTree = "<group>"; };
-		DAB7367D21293662003E070F /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libtbb.dylib"; sourceTree = "<group>"; };
-		DAB7367E21293662003E070F /* libIlmImfUtil-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.0.0.dylib"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIlmImfUtil-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7367F21293662003E070F /* libosdGPU.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosdGPU.a; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libosdGPU.a"; sourceTree = "<group>"; };
-		DAB7368021293662003E070F /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libGLEW.2.0.0.dylib"; sourceTree = "<group>"; };
-		DAB7368121293662003E070F /* libIex-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIex-2_2.la"; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libIex-2_2.la"; sourceTree = "<group>"; };
-		DAB7368221293662003E070F /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libGLEW.a"; sourceTree = "<group>"; };
-		DAB7368321293662003E070F /* libHalf.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.0.0.dylib; path = "../../../../../../../private/tmp/usdview-native/deps/lib/libHalf.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB736A3212947D5003E070F /* stageInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stageInfo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,37 +96,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB7368421293662003E070F /* libtbbmalloc.dylib in Frameworks */,
-				DAB7368521293662003E070F /* libtbbmalloc_proxy.dylib in Frameworks */,
-				DAB7368621293662003E070F /* libosdCPU.a in Frameworks */,
-				DAB7368721293662003E070F /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
-				DAB7368821293662003E070F /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
-				DAB7368921293662003E070F /* libosdGPU.3.1.1.dylib in Frameworks */,
-				DAB7368A21293662003E070F /* libboost_thread.dylib in Frameworks */,
-				DAB7368B21293662003E070F /* libosdCPU.3.1.1.dylib in Frameworks */,
-				DAB7368C21293662003E070F /* libboost_system.dylib in Frameworks */,
-				DAB7368D21293662003E070F /* libboost_date_time.dylib in Frameworks */,
-				DAB7368E21293662003E070F /* libImath-2_2.12.0.0.dylib in Frameworks */,
-				DAB7368F21293662003E070F /* libz.a in Frameworks */,
-				DAB7369021293662003E070F /* libboost_filesystem.dylib in Frameworks */,
-				DAB7369121293662003E070F /* libboost_atomic.dylib in Frameworks */,
-				DAB7369221293662003E070F /* libz.1.2.11.dylib in Frameworks */,
-				DAB7369321293662003E070F /* libIexMath-2_2.la in Frameworks */,
-				DAB7369421293663003E070F /* libboost_program_options.dylib in Frameworks */,
-				DAB7369521293663003E070F /* libusd_ms.dylib in Frameworks */,
-				DAB7369621293663003E070F /* libIex-2_2.12.0.0.dylib in Frameworks */,
-				DAB7369721293663003E070F /* libboost_regex.dylib in Frameworks */,
-				DAB7369821293663003E070F /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
-				DAB7369921293663003E070F /* libImath-2_2.la in Frameworks */,
-				DAB7369A21293663003E070F /* libHalf.la in Frameworks */,
-				DAB7369B21293663003E070F /* libIlmThread-2_2.la in Frameworks */,
-				DAB7369C21293663003E070F /* libtbb.dylib in Frameworks */,
-				DAB7369D21293663003E070F /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
-				DAB7369E21293663003E070F /* libosdGPU.a in Frameworks */,
-				DAB7369F21293663003E070F /* libGLEW.2.0.0.dylib in Frameworks */,
-				DAB736A021293663003E070F /* libIex-2_2.la in Frameworks */,
-				DAB736A121293663003E070F /* libGLEW.a in Frameworks */,
-				DAB736A221293663003E070F /* libHalf.12.0.0.dylib in Frameworks */,
+				6B72C77A2139C0E400DB1674 /* libboost_regex.dylib in Frameworks */,
+				6B72C77B2139C0E400DB1674 /* libboost_thread.dylib in Frameworks */,
+				6B72C77C2139C0E400DB1674 /* libboost_program_options.dylib in Frameworks */,
+				6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
+				6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
+				6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */,
+				6B72C7802139C0E400DB1674 /* libtbbmalloc_proxy.dylib in Frameworks */,
+				6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */,
+				6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */,
+				6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */,
+				6B72C7842139C0E400DB1674 /* libIex-2_2.12.0.0.dylib in Frameworks */,
+				6B72C7852139C0E400DB1674 /* libtbbmalloc.dylib in Frameworks */,
+				6B72C7862139C0E400DB1674 /* libboost_atomic.dylib in Frameworks */,
+				6B72C7872139C0E400DB1674 /* libtbb.dylib in Frameworks */,
+				6B72C7882139C0E400DB1674 /* libusd_ms.dylib in Frameworks */,
+				6B72C7892139C0E400DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
+				6B72C78A2139C0E400DB1674 /* libGLEW.2.0.0.dylib in Frameworks */,
+				6B72C78B2139C0E400DB1674 /* libHalf.12.0.0.dylib in Frameworks */,
+				6B72C78C2139C0E400DB1674 /* libboost_date_time.dylib in Frameworks */,
+				6B72C78D2139C0E400DB1674 /* libosdCPU.3.1.1.dylib in Frameworks */,
+				6B72C78E2139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
+				6B72C78F2139C0E400DB1674 /* libImath-2_2.12.0.0.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,10 +167,7 @@
 				6B46E8AD21271E330057FEEA /* MainMenu.xib */,
 				6B46E8B021271E330057FEEA /* Info.plist */,
 				6B46E8B121271E330057FEEA /* usdview.entitlements */,
-				DAB7366121293572003E070F /* stageInfo.cpp */,
-				DAB7366221293572003E070F /* stageInfo.hpp */,
 				DAB7366021293572003E070F /* usdview-Bridging-Header.h */,
-				DAB736A3212947D5003E070F /* stageInfo.swift */,
 			);
 			path = usdview;
 			sourceTree = "<group>";
@@ -228,37 +193,28 @@
 		DAB7366421293661003E070F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB7367221293662003E070F /* libboost_atomic.dylib */,
-				DAB7366E21293662003E070F /* libboost_date_time.dylib */,
-				DAB7367121293662003E070F /* libboost_filesystem.dylib */,
-				DAB7367521293662003E070F /* libboost_program_options.dylib */,
-				DAB7367821293662003E070F /* libboost_regex.dylib */,
-				DAB7366D21293661003E070F /* libboost_system.dylib */,
-				DAB7366B21293661003E070F /* libboost_thread.dylib */,
-				DAB7368021293662003E070F /* libGLEW.2.0.0.dylib */,
-				DAB7368221293662003E070F /* libGLEW.a */,
-				DAB7368321293662003E070F /* libHalf.12.0.0.dylib */,
-				DAB7367B21293662003E070F /* libHalf.la */,
-				DAB7367721293662003E070F /* libIex-2_2.12.0.0.dylib */,
-				DAB7368121293662003E070F /* libIex-2_2.la */,
-				DAB7367921293662003E070F /* libIexMath-2_2.12.0.0.dylib */,
-				DAB7367421293662003E070F /* libIexMath-2_2.la */,
-				DAB7366821293661003E070F /* libIlmImf-2_2.22.0.0.dylib */,
-				DAB7367E21293662003E070F /* libIlmImfUtil-2_2.22.0.0.dylib */,
-				DAB7366921293661003E070F /* libIlmThread-2_2.12.0.0.dylib */,
-				DAB7367C21293662003E070F /* libIlmThread-2_2.la */,
-				DAB7366F21293662003E070F /* libImath-2_2.12.0.0.dylib */,
-				DAB7367A21293662003E070F /* libImath-2_2.la */,
-				DAB7366C21293661003E070F /* libosdCPU.3.1.1.dylib */,
-				DAB7366721293661003E070F /* libosdCPU.a */,
-				DAB7366A21293661003E070F /* libosdGPU.3.1.1.dylib */,
-				DAB7367F21293662003E070F /* libosdGPU.a */,
-				DAB7367D21293662003E070F /* libtbb.dylib */,
-				DAB7366621293661003E070F /* libtbbmalloc_proxy.dylib */,
-				DAB7366521293661003E070F /* libtbbmalloc.dylib */,
-				DAB7367621293662003E070F /* libusd_ms.dylib */,
-				DAB7367321293662003E070F /* libz.1.2.11.dylib */,
-				DAB7367021293662003E070F /* libz.a */,
+				6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */,
+				6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */,
+				6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */,
+				6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */,
+				6B72C7642139C0E300DB1674 /* libboost_regex.dylib */,
+				6B72C76C2139C0E300DB1674 /* libboost_system.dylib */,
+				6B72C7652139C0E300DB1674 /* libboost_thread.dylib */,
+				6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */,
+				6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */,
+				6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */,
+				6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */,
+				6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */,
+				6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */,
+				6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */,
+				6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */,
+				6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */,
+				6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */,
+				6B72C7712139C0E300DB1674 /* libtbb.dylib */,
+				6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */,
+				6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */,
+				6B72C7722139C0E300DB1674 /* libusd_ms.dylib */,
+				6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -394,8 +350,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				6B46E8AA21271E310057FEEA /* AppDelegate.swift in Sources */,
-				DAB7366321293572003E070F /* stageInfo.cpp in Sources */,
-				DAB736A4212947D5003E070F /* stageInfo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -493,6 +447,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/deps/include/";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/deps/lib/";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -547,6 +503,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${PROJECT_DIR}/deps/include/";
+				LIBRARY_SEARCH_PATHS = "${PROJECT_DIR}/deps/lib/";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -563,18 +521,17 @@
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/tmp/usdview-native/deps/include/";
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"/tmp/usdview-native/deps/lib/",
 				);
-				OTHER_LDFLAGS = (
-					"-L/tmp/usdview-native/deps/lib/",
-					"-lusd_ms",
-					"-lboost_system",
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/deps/lib",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "usdview/usdview-Bridging-Header.h";
@@ -591,18 +548,17 @@
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				"HEADER_SEARCH_PATHS[arch=*]" = "/tmp/usdview-native/deps/include/";
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 					"/tmp/usdview-native/deps/lib/",
 				);
-				OTHER_LDFLAGS = (
-					"-L/tmp/usdview-native/deps/lib/",
-					"-lusd_ms",
-					"-lboost_system",
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/deps/lib",
 				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "usdview/usdview-Bridging-Header.h";

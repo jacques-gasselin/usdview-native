@@ -1,5 +1,5 @@
 #!/bin/sh
-DEPS_DIR=/tmp/usdview-native/deps
+DEPS_DIR=$(pwd)/macos/deps
 mkdir -p $DEPS_DIR/src
 pushd $DEPS_DIR/src
 
