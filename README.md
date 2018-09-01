@@ -9,9 +9,11 @@ Installing Dependencies
 macOS
 -----
 
+> Note: The library dependencies are build for High Sierra in the macos/deps folder already. You do not need to run the script if you want to run the application, only if you intend to change the USD version or the OS.
+
 Run the dependecies build script in the root folder
 
 *sh macos_build_deps.sh*
 
-It will download Cmake and USD and build them in a temporary location
+It will download Cmake and USD and build them in the macos/deps location
 that does not affect the wider system.
