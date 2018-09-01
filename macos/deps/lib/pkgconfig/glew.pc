@@ -1,6 +1,6 @@
 prefix=/usr
 exec_prefix=${prefix}
-libdir=/Users/jgasseli/github/usdview-native/macos/deps/lib
+libdir=/Users/superfunc/stuff/code/swift/uvn/macos/deps/lib
 includedir=${prefix}/include
 
 Name: glew

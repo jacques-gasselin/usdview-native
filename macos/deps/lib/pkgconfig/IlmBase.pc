@@ -1,4 +1,4 @@
-prefix=/Users/jgasseli/github/usdview-native/macos/deps
+prefix=/Users/superfunc/stuff/code/swift/uvn/macos/deps
 exec_prefix=${prefix}
 libdir=${exec_prefix}/lib
 includedir=${prefix}/include
