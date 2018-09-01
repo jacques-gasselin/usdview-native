@@ -75,15 +75,10 @@
 		DAB2E790213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
 		DAB2E791213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
 		DAB2E792213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
-		DAB2E79C213B3796001C880B /* libImath-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E793213B3796001C880B /* libImath-2_2.la */; };
 		DAB2E79D213B3796001C880B /* libosdCPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E794213B3796001C880B /* libosdCPU.a */; };
-		DAB2E79E213B3796001C880B /* libIexMath-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E795213B3796001C880B /* libIexMath-2_2.la */; };
 		DAB2E79F213B3796001C880B /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E796213B3796001C880B /* libz.a */; };
 		DAB2E7A0213B3796001C880B /* libosdGPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E797213B3796001C880B /* libosdGPU.a */; };
-		DAB2E7A1213B3796001C880B /* libIlmThread-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E798213B3796001C880B /* libIlmThread-2_2.la */; };
-		DAB2E7A2213B3796001C880B /* libHalf.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E799213B3796001C880B /* libHalf.la */; };
 		DAB2E7A3213B3796001C880B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79A213B3796001C880B /* libGLEW.a */; };
-		DAB2E7A4213B3796001C880B /* libIex-2_2.la in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79B213B3796001C880B /* libIex-2_2.la */; };
 		DAB2E7AB213B3C33001C880B /* usd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A5213B3C32001C880B /* usd.swift */; };
 		DAB2E7AC213B3C33001C880B /* sdf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A7213B3C33001C880B /* sdf.cpp */; };
 		DAB2E7AD213B3C33001C880B /* usd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A8213B3C33001C880B /* usd.cpp */; };
@@ -92,13 +87,6 @@
 
 /* Begin PBXContainerItemProxy section */
 		6B46E8B721271E330057FEEA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6B46E89E21271E310057FEEA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6B46E8A521271E310057FEEA;
-			remoteInfo = usdview;
-		};
-		6B46E8C221271E330057FEEA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6B46E89E21271E310057FEEA /* Project object */;
 			proxyType = 1;
@@ -191,15 +179,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB2E79C213B3796001C880B /* libImath-2_2.la in Frameworks */,
 				DAB2E79D213B3796001C880B /* libosdCPU.a in Frameworks */,
-				DAB2E79E213B3796001C880B /* libIexMath-2_2.la in Frameworks */,
 				DAB2E79F213B3796001C880B /* libz.a in Frameworks */,
 				DAB2E7A0213B3796001C880B /* libosdGPU.a in Frameworks */,
-				DAB2E7A1213B3796001C880B /* libIlmThread-2_2.la in Frameworks */,
-				DAB2E7A2213B3796001C880B /* libHalf.la in Frameworks */,
 				DAB2E7A3213B3796001C880B /* libGLEW.a in Frameworks */,
-				DAB2E7A4213B3796001C880B /* libIex-2_2.la in Frameworks */,
 				DAB2E769213B3789001C880B /* libboost_atomic.dylib in Frameworks */,
 				DAB2E76A213B3789001C880B /* libboost_date_time.dylib in Frameworks */,
 				DAB2E76B213B3789001C880B /* libboost_filesystem.dylib in Frameworks */,
@@ -242,13 +225,6 @@
 				DAB2E790213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
 				DAB2E791213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
 				DAB2E792213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6B46E8BE21271E330057FEEA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,10 +371,6 @@
 						CreatedOnToolsVersion = 9.4.1;
 						TestTargetID = 6B46E8A521271E310057FEEA;
 					};
-					6B46E8C021271E330057FEEA = {
-						CreatedOnToolsVersion = 9.4.1;
-						TestTargetID = 6B46E8A521271E310057FEEA;
-					};
 				};
 			};
 			buildConfigurationList = 6B46E8A121271E310057FEEA /* Build configuration list for PBXProject "usdview" */;
@@ -437,13 +409,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B46E8BF21271E330057FEEA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -467,13 +432,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B46E8BD21271E330057FEEA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -481,11 +439,6 @@
 			isa = PBXTargetDependency;
 			target = 6B46E8A521271E310057FEEA /* usdview */;
 			targetProxy = 6B46E8B721271E330057FEEA /* PBXContainerItemProxy */;
-		};
-		6B46E8C321271E330057FEEA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6B46E8A521271E310057FEEA /* usdview */;
-			targetProxy = 6B46E8C221271E330057FEEA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -624,9 +577,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -636,6 +592,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-documentation",
+					"-Wno-deprecated",
+					"-Wno-comma",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
@@ -652,9 +615,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
+				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -664,6 +630,13 @@
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/deps/lib",
+				);
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = (
+					"$(OTHER_CFLAGS)",
+					"-Wno-documentation",
+					"-Wno-deprecated",
+					"-Wno-comma",
 				);
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
