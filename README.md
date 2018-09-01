@@ -3,6 +3,8 @@
 # usdview-native
 Workalike for usdview for those who want to avoid Qt and Python
 
+[![Build Status](https://travis-ci.com/jacques-gasselin/usdview-native.svg?branch=master)](https://travis-ci.com/jacques-gasselin/usdview-native)
+
 Installing Dependencies
 =======================
 
