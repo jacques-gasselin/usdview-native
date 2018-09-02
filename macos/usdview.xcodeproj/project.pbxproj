@@ -11,10 +11,11 @@
 		6B46E8AC21271E330057FEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AB21271E330057FEEA /* Assets.xcassets */; };
 		6B46E8AF21271E330057FEEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AD21271E330057FEEA /* MainMenu.xib */; };
 		6B46E8BB21271E330057FEEA /* usdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* usdviewTests.swift */; };
-		6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
 		6B4D77CD213B631E00B150B2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79A213B3796001C880B /* libGLEW.a */; };
-		6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
-		6B4D77CF213B643600B150B2 /* libusd_ms.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
+		6B4D77CF213B643600B150B2 /* libusd_ms.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; };
+		6B4D77D1213B6D0F00B150B2 /* libosdCPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
 		6B72C77A2139C0E400DB1674 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7642139C0E300DB1674 /* libboost_regex.dylib */; };
 		6B72C77B2139C0E400DB1674 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7652139C0E300DB1674 /* libboost_thread.dylib */; };
 		6B72C77C2139C0E400DB1674 /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */; };
@@ -106,6 +107,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6B4D77D1213B6D0F00B150B2 /* libosdCPU.3.1.1.dylib in CopyFiles */,
 				6B4D77CF213B643600B150B2 /* libusd_ms.dylib in CopyFiles */,
 				6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */,
 				6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */,
@@ -524,7 +526,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -586,7 +588,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -616,10 +618,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
-				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
@@ -656,10 +655,7 @@
 				CLANG_CXX_LANGUAGE_STANDARD = "c++17";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
-				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
-				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = "";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
