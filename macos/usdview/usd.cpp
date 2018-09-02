@@ -8,12 +8,12 @@
 
 #include "boost/get_pointer.hpp"
 
-auto _allocStrBuffer = [](auto s) {
+auto allocStrBuffer = [](auto s) {
   return (const char **)malloc(s * sizeof(const char *));
 };
 
-auto _reallocAndCopy = [](auto &oldStream, auto size) {
-  const char **newStream = _allocStrBuffer(2 * size);
+auto reallocAndCopy = [](auto &oldStream, auto size) {
+  const char **newStream = allocStrBuffer(2 * size);
   const char **oldStreamHandle = oldStream;
   for (size_t i = 0; i < size; ++i) {
     newStream[i] = oldStream[i];
@@ -25,18 +25,18 @@ auto _reallocAndCopy = [](auto &oldStream, auto size) {
 
 // Exposes a stream of prim information in the form of
 // [char*] path [char*] type
-const char **_getPrimInfo(void *stagePtr, int *numPrims) {
+const char **usdffi_getPrimInfo(void *stagePtr, int *numPrims) {
   auto stage = (pxr::UsdStage *)stagePtr;
   const size_t numElementsPerStream = 2;
   size_t numElementsInStreamTotal = 32;
-  const char **stream = _allocStrBuffer(numElementsInStreamTotal);
+  const char **stream = allocStrBuffer(numElementsInStreamTotal);
   size_t currentStreamSize = 0;
 
   for (const auto &child : stage->Traverse()) {
     // We may have outgrown our original buffer estimate, if necessary
     // we will reallocate and copy our elements over, doubling the size.
     if (currentStreamSize < numElementsPerStream) {
-      auto oldStream = _reallocAndCopy(stream, numElementsInStreamTotal);
+      auto oldStream = reallocAndCopy(stream, numElementsInStreamTotal);
       numElementsInStreamTotal *= 2;
       free(oldStream);
     }
@@ -49,36 +49,38 @@ const char **_getPrimInfo(void *stagePtr, int *numPrims) {
   return stream;
 }
 
-double _getStartTimeCode(void *stagePtr) {
+double usdffi_getStartTimeCode(void *stagePtr) {
   return ((pxr::UsdStage *)stagePtr)->GetStartTimeCode();
 }
 
-double _getEndTimeCode(void *stagePtr) {
+double usdffi_getEndTimeCode(void *stagePtr) {
   return ((pxr::UsdStage *)stagePtr)->GetEndTimeCode();
 }
 
-const char *_getInterpolationType(void *stagePtr) {
+const char *usdffi_getInterpolationType(void *stagePtr) {
   auto interp = ((pxr::UsdStage *)stagePtr)->GetInterpolationType();
   return interp == 0 ? "Held" : "Linear";
 }
 
-double _getTimeCodesPerSecond(void *stagePtr) {
+double usdffi_getTimeCodesPerSecond(void *stagePtr) {
   return ((pxr::UsdStage *)stagePtr)->GetTimeCodesPerSecond();
 }
 
-void *_openStage(const char *sPath) {
+void *usdffi_openStage(const char *sPath) {
   static auto stage = pxr::UsdStage::Open(sPath);
   return boost::get_pointer(stage);
 }
 
-void _reloadStage(void *stagePtr) { ((pxr::UsdStage *)stagePtr)->Reload(); }
+void usdffi_reloadStage(void *stagePtr) {
+  ((pxr::UsdStage *)stagePtr)->Reload();
+}
 
-void _setDefaultPrim(void *stagePtr, const char *primPath) {
+void usdffi_setDefaultPrim(void *stagePtr, const char *primPath) {
   auto path = pxr::SdfPath(primPath);
   auto prim = ((pxr::UsdStage *)stagePtr)->GetPrimAtPath(path);
   ((pxr::UsdStage *)stagePtr)->SetDefaultPrim(prim);
 }
 
-const char *_getDefaultPrim(void *stagePtr) {
+const char *usdffi_getDefaultPrim(void *stagePtr) {
   return ((pxr::UsdStage *)stagePtr)->GetDefaultPrim().GetPath().GetText();
 }

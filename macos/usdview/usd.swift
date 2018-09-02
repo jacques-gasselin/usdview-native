@@ -44,12 +44,12 @@ struct UsdStageInfo {
     internal let ptr: UnsafeMutableRawPointer
 
     init(stagePath: String) {
-        ptr = _openStage(stagePath)
-        startTimeCode = _getStartTimeCode(ptr)
-        endTimeCode = _getEndTimeCode(ptr)
-        timeCodesPerSecond = _getTimeCodesPerSecond(ptr)
+        ptr = usdffi_openStage(stagePath)
+        startTimeCode = usdffi_getStartTimeCode(ptr)
+        endTimeCode = usdffi_getEndTimeCode(ptr)
+        timeCodesPerSecond = usdffi_getTimeCodesPerSecond(ptr)
 
-        let interpStr = String(cString: _getInterpolationType(ptr))
+        let interpStr = String(cString: usdffi_getInterpolationType(ptr))
         if interpStr == "Held" {
             interpolationType = UsdStageInterpolation.held
         } else {
@@ -60,7 +60,7 @@ struct UsdStageInfo {
     func getPrims() -> [UsdPrimInfo] {
         var numPrims: Int32 = 0
         var result: [UsdPrimInfo] = []
-        var stream = _getPrimInfo(ptr, &numPrims)!
+        var stream = usdffi_getPrimInfo(ptr, &numPrims)!
 
         let getString = { (ptr: inout UnsafeMutablePointer<UnsafePointer<Int8>?>) -> String in
             if let raw = ptr.pointee { ptr += 1; return String(cString: raw) }
@@ -80,14 +80,14 @@ struct UsdStageInfo {
     }
 
     func reload() {
-        _reloadStage(ptr)
+        usdffi_reloadStage(ptr)
     }
 
     func setDefaultPrim(path: SdfPath) {
-        _setDefaultPrim(ptr, path.getString())
+        usdffi_setDefaultPrim(ptr, path.getString())
     }
 
     func getDefaultPrim() -> String {
-        return String(cString: _getDefaultPrim(ptr))
+        return String(cString: usdffi_getDefaultPrim(ptr))
     }
 }
