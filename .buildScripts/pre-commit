@@ -1,0 +1,25 @@
+#!/bin/sh
+
+# Ensure C++ code is formatted.
+git ls-files | grep -v "deps\/" | grep "hpp\|cpp" | xargs clang-format -i
+echo 'running clang format...'
+if git diff --exit-code 
+then
+    echo "C++ code has been formatted, continuing commit process"
+else
+    echo "C++ code has _not_ been formatted, exiting commit process"
+    exit 1
+fi
+
+# Ensure Swift code is formatted
+git ls-files | grep -v "deps\/" | grep "\.swift" | xargs swiftformat
+if git diff --exit-code 
+then
+    echo "Swift code has been formatted, continuing commit process"
+else
+    echo "Swift code has _not_ been formatted, exiting commit process"
+    exit 1
+fi
+
+# Ensure code has been built
+xcodebuild clean build -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"
