@@ -23,3 +23,6 @@ fi
 
 # Ensure code has been built
 xcodebuild clean build -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"
+
+# Ensure the tests pass
+xcodebuild clean test -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"

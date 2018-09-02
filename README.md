@@ -14,8 +14,11 @@ macOS
 > Note: The library dependencies are build for High Sierra in the macos/deps folder already. You do not need to run the script if you want to run the application, only if you intend to change the USD version or the OS.
 
 Run the developer setup script (configure git, etc)
-*.buildScripts/dev-setup*
+```bash
+$ .buildScripts/dev-setup
+```
 
 Build the local dependencies (USD, Boost, etc)
-*.buildScripts/build-mac-deps*
-
+```bash
+$ .buildScripts/build-mac-deps
+```
