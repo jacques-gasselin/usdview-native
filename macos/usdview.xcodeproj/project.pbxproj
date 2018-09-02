@@ -22,7 +22,6 @@
 		6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
 		6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
 		6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
-		6B72C7802139C0E400DB1674 /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */; };
 		6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */; };
 		6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76C2139C0E300DB1674 /* libboost_system.dylib */; };
 		6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
@@ -177,7 +176,6 @@
 				6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
 				6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
 				6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */,
-				6B72C7802139C0E400DB1674 /* libtbbmalloc_proxy.dylib in Frameworks */,
 				6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */,
 				6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */,
 				6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */,
