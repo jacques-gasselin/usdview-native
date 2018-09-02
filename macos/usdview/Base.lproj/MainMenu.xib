@@ -18,6 +18,7 @@
             </connections>
         </customObject>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <customObject id="Bgs-cr-a76" customClass="DocumentController" customModule="usdview" customModuleProvider="target"/>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="usdview" id="1Xt-HY-uBw">
@@ -927,7 +928,7 @@
                                         <tabViewItems>
                                             <tabViewItem label="Value" identifier="" id="8PY-P0-m0n">
                                                 <view key="view" ambiguous="YES" id="BL4-db-Zh5">
-                                                    <rect key="frame" x="10" y="33" width="335" height="159"/>
+                                                    <rect key="frame" x="10" y="33" width="336" height="159"/>
                                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 </view>
                                             </tabViewItem>
