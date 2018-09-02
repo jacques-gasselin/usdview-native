@@ -10,9 +10,9 @@
 		6B46E8AA21271E310057FEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8A921271E310057FEEA /* AppDelegate.swift */; };
 		6B46E8AC21271E330057FEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AB21271E330057FEEA /* Assets.xcassets */; };
 		6B46E8AF21271E330057FEEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AD21271E330057FEEA /* MainMenu.xib */; };
-		6B46E8BB21271E330057FEEA /* usdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* usdviewTests.swift */; };
 		6B4C6980213BA07900A3E692 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C697F213BA07900A3E692 /* DocumentController.swift */; };
 		6B4C6982213BA64D00A3E692 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C6981213BA64D00A3E692 /* Document.swift */; };
+		6B46E8BB21271E330057FEEA /* UsdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* UsdviewTests.swift */; };
 		6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
 		6B4D77CD213B631E00B150B2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79A213B3796001C880B /* libGLEW.a */; };
 		6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
@@ -125,7 +125,7 @@
 		6B46E8B021271E330057FEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B46E8B121271E330057FEEA /* usdview.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = usdview.entitlements; sourceTree = "<group>"; };
 		6B46E8B621271E330057FEEA /* usdviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = usdviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		6B46E8BA21271E330057FEEA /* usdviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = usdviewTests.swift; sourceTree = "<group>"; };
+		6B46E8BA21271E330057FEEA /* UsdviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsdviewTests.swift; sourceTree = "<group>"; };
 		6B46E8BC21271E330057FEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4C697F213BA07900A3E692 /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		6B4C6981213BA64D00A3E692 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
@@ -298,7 +298,7 @@
 		6B46E8B921271E330057FEEA /* usdviewTests */ = {
 			isa = PBXGroup;
 			children = (
-				6B46E8BA21271E330057FEEA /* usdviewTests.swift */,
+				6B46E8BA21271E330057FEEA /* UsdviewTests.swift */,
 				6B46E8BC21271E330057FEEA /* Info.plist */,
 			);
 			path = usdviewTests;
@@ -474,7 +474,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B46E8BB21271E330057FEEA /* usdviewTests.swift in Sources */,
+				6B46E8BB21271E330057FEEA /* UsdviewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

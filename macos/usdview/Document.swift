@@ -8,7 +8,7 @@
 import Cocoa
 
 class Document: NSDocument {
-    override func read(from url: URL, ofType typeName: String) throws {
+    override func read(from url: URL, ofType _: String) throws {
         let stagePath = url.path
         let info = UsdStageInfo(stagePath: stagePath)
     }

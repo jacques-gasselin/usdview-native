@@ -1,7 +1,6 @@
 import Foundation
 
 enum UsdPrimType {
-    // TODO: Fill out with remaining types
     case mesh
     case xform
     case untyped
@@ -63,8 +62,8 @@ struct UsdStageInfo {
         var result: [UsdPrimInfo] = []
         var stream = _getPrimInfo(ptr, &numPrims)!
 
-        let getString = { (s: inout UnsafeMutablePointer<UnsafePointer<Int8>?>) -> String in
-            if let n = s.pointee { s += 1; return String(cString: n) }
+        let getString = { (ptr: inout UnsafeMutablePointer<UnsafePointer<Int8>?>) -> String in
+            if let raw = ptr.pointee { ptr += 1; return String(cString: raw) }
             return ""
         }
 
