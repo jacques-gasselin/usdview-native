@@ -1,28 +1,65 @@
 #!/bin/sh
 
+echo 'Running formatters ..............................................'
+
 # Ensure C++ code is formatted.
 git ls-files | grep -v "deps\/" | grep "hpp\|cpp" | xargs clang-format -i
-echo 'running clang format...'
-if git diff --exit-code 
+if git diff --exit-code > /dev/null &> .buildScripts/.formatErrors.txt
 then
-    echo "C++ code has been formatted, continuing commit process"
+    printf ''
 else
-    echo "C++ code has _not_ been formatted, exiting commit process"
+    echo "C++ code has _not_ been formatted, see errors in .buildScripts/.formatErrors.txt, exiting commit process"
     exit 1
 fi
 
-# Ensure Swift code is formatted
-git ls-files | grep -v "deps\/" | grep "\.swift" | xargs swiftformat
-if git diff --exit-code 
+git ls-files | grep -v "deps\/" | grep "\.swift" | xargs -I{} sh -c 'swiftformat "$1" > /dev/null' -- {} 
+if git diff --exit-code > /dev/null &> .buildScripts/.formatErrors.txt
 then
-    echo "Swift code has been formatted, continuing commit process"
+    printf ""
 else
-    echo "Swift code has _not_ been formatted, exiting commit process"
+    echo "Swift code has _not_ been formatted, see errors in .buildScripts/.formatErrors.txt, exiting commit process"
     exit 1
 fi
 
-# Ensure code has been built
-xcodebuild clean build -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"
+echo 'Running linters .................................................'
+if swiftlint > /dev/null &> .buildScripts/.lintErrors.txt
+then
+    printf ""
+else
+    echo "Swift code has _not_ been linted, see errors in .buildScripts/.lintErrors.txt, exiting commit process"
+    exit 1
+fi
+
+echo 'Running build ...................................................'
+if .buildScripts/build > /dev/null &> .buildScripts/.buildErrors.txt
+then
+    printf ""
+else
+    echo "Build failed! See error log in buildErrors.txt"
+fi
 
 # Ensure the tests pass
-xcodebuild clean test -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"
+echo 'Running tests ...................................................'
+if .buildScripts/test > /dev/null &> .buildScripts/.testErrors.txt
+then
+    echo ""
+else
+    echo "Tests failed! See error log in .buildScripts/.testErrors.txt"
+fi
+
+echo 'Cleaning up artifacts ...........................................'
+if [ -e .buildScripts/.buildErrors.txt ]; then
+    rm .buildScripts/.buildErrors.txt 
+fi
+
+if [ -e .buildScripts/.testErrors.txt ]; then
+    rm .buildScripts/.testErrors.txt 
+fi
+
+if [ -e .buildScripts/.formatErrors.txt ]; then
+    rm .buildScripts/.formatErrors.txt
+fi
+
+if [ -e .buildScripts/.lintErrors.txt ]; then
+    rm .buildScripts/.lintErrors.txt
+fi
