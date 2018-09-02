@@ -343,10 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B46E8CA21271E330057FEEA /* Build configuration list for PBXNativeTarget "usdview" */;
 			buildPhases = (
+				6B4D77CB213B62A200B150B2 /* CopyFiles */,
+				6B4D77D0213B661600B150B2 /* ShellScript */,
 				6B46E8A221271E310057FEEA /* Sources */,
 				6B46E8A321271E310057FEEA /* Frameworks */,
 				6B46E8A421271E310057FEEA /* Resources */,
-				6B4D77CB213B62A200B150B2 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -431,6 +432,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6B4D77D0213B661600B150B2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\n#don't change ids of the copied in system swift libraries\nlibs=$(ls | grep dylib | grep -v swift)\n#echo $libs\nfor l in $libs\ndo\n    #echo $l\n    install_name_tool -id @executable_path/../Frameworks/$l $l\ndone";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6B46E8A221271E310057FEEA /* Sources */ = {
@@ -600,8 +617,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
@@ -624,6 +642,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "usdview/usdview-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -638,8 +657,9 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				CODE_SIGN_ENTITLEMENTS = usdview/usdview.entitlements;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				GCC_WARN_PEDANTIC = NO;
 				INFOPLIST_FILE = usdview/Info.plist;
@@ -662,6 +682,7 @@
 				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.usdview-native.usdview";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "usdview/usdview-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 			};
