@@ -5,7 +5,7 @@ Workalike for usdview for those who want to avoid Qt and Python
 
 [![Build Status](https://travis-ci.com/jacques-gasselin/usdview-native.svg?branch=master)](https://travis-ci.com/jacques-gasselin/usdview-native)
 
-Installing Dependencies
+Developer Setup
 =======================
 
 macOS
@@ -13,9 +13,9 @@ macOS
 
 > Note: The library dependencies are build for High Sierra in the macos/deps folder already. You do not need to run the script if you want to run the application, only if you intend to change the USD version or the OS.
 
-Run the dependecies build script in the root folder
+Run the developer setup script (configure git, etc)
+*.buildScripts/dev-setup*
 
-*sh macos_build_deps.sh*
+Build the local dependencies (USD, Boost, etc)
+*.buildScripts/build-mac-deps*
 
-It will download Cmake and USD and build them in the macos/deps location
-that does not affect the wider system.

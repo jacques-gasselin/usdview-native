@@ -5,4 +5,4 @@ xcode_project: macos/usdview.xcodeproj/
 xcode_scheme: usdview
 xcode_destination: platform=macOS
 script: 
-    - xcodebuild clean build -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS" 
+    - echo 'Turning off for now'
