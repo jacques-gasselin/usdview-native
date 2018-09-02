@@ -4,5 +4,15 @@ language: swift
 xcode_project: macos/usdview.xcodeproj/
 xcode_scheme: usdview
 xcode_destination: platform=macOS
+pre_install:
+    - brew install cmake
+
 script: 
-    - echo 'Turning off for now'
+    - .buildScripts/build-mac-deps
+    - .buildScripts/build
+    - .buildScripts/test
+
+cache:
+  directories:
+    - macos/deps
+    - $HOME/Library/Caches/Homebrew
