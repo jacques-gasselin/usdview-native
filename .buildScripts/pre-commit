@@ -22,7 +22,7 @@ else
 fi
 
 echo 'Running linters .................................................'
-if swiftlint > /dev/null &> .buildScripts/.lintErrors.txt
+if swiftlint lint --path macos/usdview > /dev/null &> .buildScripts/.lintErrors.txt
 then
     printf ""
 else

@@ -8,7 +8,9 @@
 import Cocoa
 
 class DocumentController: NSDocumentController {
-    override func beginOpenPanel(_ openPanel: NSOpenPanel, forTypes inTypes: [String]?, completionHandler: @escaping (Int) -> Void) {
+    override func beginOpenPanel(_ openPanel: NSOpenPanel,
+                                 forTypes inTypes: [String]?,
+                                 completionHandler: @escaping (Int) -> Void) {
         var types: [String] = []
 
         if let inTypes = inTypes {
@@ -24,7 +26,9 @@ class DocumentController: NSDocumentController {
             types.append("usdz")
         }
 
-        super.beginOpenPanel(openPanel, forTypes: types, completionHandler: completionHandler)
+        super.beginOpenPanel(openPanel,
+                             forTypes: types,
+                             completionHandler: completionHandler)
     }
 
     override func documentClass(forType _: String) -> AnyClass? {

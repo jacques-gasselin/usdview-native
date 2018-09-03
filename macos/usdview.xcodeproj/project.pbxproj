@@ -7,84 +7,73 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B02CD37213C5D2C006D8E23 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD0D213C5D29006D8E23 /* libboost_regex.dylib */; };
+		6B02CD38213C5D2C006D8E23 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD0E213C5D29006D8E23 /* libboost_thread.dylib */; };
+		6B02CD39213C5D2C006D8E23 /* libIex-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD0F213C5D29006D8E23 /* libIex-2_2.dylib */; };
+		6B02CD3A213C5D2C006D8E23 /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD10213C5D29006D8E23 /* libboost_program_options.dylib */; };
+		6B02CD3B213C5D2C006D8E23 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD11213C5D29006D8E23 /* libIlmThread-2_2.12.0.0.dylib */; };
+		6B02CD3C213C5D2C006D8E23 /* libosdGPU.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD12213C5D29006D8E23 /* libosdGPU.dylib */; };
+		6B02CD3D213C5D2C006D8E23 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD13213C5D29006D8E23 /* libz.dylib */; };
+		6B02CD3E213C5D2C006D8E23 /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD14213C5D29006D8E23 /* libosdGPU.3.1.1.dylib */; };
+		6B02CD40213C5D2C006D8E23 /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD16213C5D29006D8E23 /* libboost_filesystem.dylib */; };
+		6B02CD41213C5D2C006D8E23 /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD17213C5D29006D8E23 /* libz.1.2.11.dylib */; };
+		6B02CD42213C5D2C006D8E23 /* libIlmImf-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD18213C5D29006D8E23 /* libIlmImf-2_2.dylib */; };
+		6B02CD43213C5D2C006D8E23 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD19213C5D29006D8E23 /* libz.1.dylib */; };
+		6B02CD44213C5D2C006D8E23 /* libIlmImf-2_2.22.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1A213C5D2A006D8E23 /* libIlmImf-2_2.22.dylib */; };
+		6B02CD45213C5D2C006D8E23 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1B213C5D2A006D8E23 /* libtbb.dylib */; };
+		6B02CD46213C5D2C006D8E23 /* libusd_ms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1C213C5D2A006D8E23 /* libusd_ms.dylib */; };
+		6B02CD47213C5D2C006D8E23 /* libIlmThread-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1D213C5D2A006D8E23 /* libIlmThread-2_2.12.dylib */; };
+		6B02CD48213C5D2C006D8E23 /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1E213C5D2A006D8E23 /* libHalf.12.0.0.dylib */; };
+		6B02CD49213C5D2C006D8E23 /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD1F213C5D2A006D8E23 /* libboost_date_time.dylib */; };
+		6B02CD4A213C5D2C006D8E23 /* libGLEW.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD20213C5D2A006D8E23 /* libGLEW.dylib */; };
+		6B02CD4B213C5D2C006D8E23 /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD21213C5D2A006D8E23 /* libosdCPU.3.1.1.dylib */; };
+		6B02CD4C213C5D2C006D8E23 /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD22213C5D2A006D8E23 /* libIexMath-2_2.12.0.0.dylib */; };
+		6B02CD4D213C5D2C006D8E23 /* libHalf.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD23213C5D2A006D8E23 /* libHalf.12.dylib */; };
+		6B02CD4E213C5D2C006D8E23 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD24213C5D2A006D8E23 /* libIlmImf-2_2.22.0.0.dylib */; };
+		6B02CD4F213C5D2C006D8E23 /* libIlmThread-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD25213C5D2A006D8E23 /* libIlmThread-2_2.dylib */; };
+		6B02CD50213C5D2C006D8E23 /* libImath-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD26213C5D2A006D8E23 /* libImath-2_2.12.dylib */; };
+		6B02CD51213C5D2C006D8E23 /* libIex-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD27213C5D2A006D8E23 /* libIex-2_2.12.dylib */; };
+		6B02CD52213C5D2C006D8E23 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD28213C5D2B006D8E23 /* libboost_system.dylib */; };
+		6B02CD53213C5D2C006D8E23 /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD29213C5D2B006D8E23 /* libIex-2_2.12.0.0.dylib */; };
+		6B02CD54213C5D2C006D8E23 /* libIlmImfUtil-2_2.22.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2A213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.dylib */; };
+		6B02CD55213C5D2C006D8E23 /* libHalf.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2B213C5D2B006D8E23 /* libHalf.dylib */; };
+		6B02CD56213C5D2C006D8E23 /* libosdCPU.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2C213C5D2B006D8E23 /* libosdCPU.dylib */; };
+		6B02CD57213C5D2C006D8E23 /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2D213C5D2B006D8E23 /* libboost_atomic.dylib */; };
+		6B02CD58213C5D2C006D8E23 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2E213C5D2B006D8E23 /* libtbbmalloc.dylib */; };
+		6B02CD59213C5D2C006D8E23 /* libImath-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD2F213C5D2B006D8E23 /* libImath-2_2.dylib */; };
+		6B02CD5A213C5D2C006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD30213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
+		6B02CD5B213C5D2C006D8E23 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD31213C5D2B006D8E23 /* libGLEW.2.0.0.dylib */; };
+		6B02CD5D213C5D2C006D8E23 /* libIlmImfUtil-2_2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD33213C5D2B006D8E23 /* libIlmImfUtil-2_2.dylib */; };
+		6B02CD5E213C5D2C006D8E23 /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD34213C5D2B006D8E23 /* libImath-2_2.12.0.0.dylib */; };
+		6B02CD60213C5D2C006D8E23 /* libIexMath-2_2.12.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B02CD36213C5D2C006D8E23 /* libIexMath-2_2.12.dylib */; };
+		6B02CD61213C5D3E006D8E23 /* libboost_atomic.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2D213C5D2B006D8E23 /* libboost_atomic.dylib */; };
+		6B02CD62213C5D3E006D8E23 /* libboost_date_time.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1F213C5D2A006D8E23 /* libboost_date_time.dylib */; };
+		6B02CD63213C5D3E006D8E23 /* libboost_filesystem.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD16213C5D29006D8E23 /* libboost_filesystem.dylib */; };
+		6B02CD64213C5D3E006D8E23 /* libboost_program_options.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD10213C5D29006D8E23 /* libboost_program_options.dylib */; };
+		6B02CD65213C5D3E006D8E23 /* libboost_regex.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD0D213C5D29006D8E23 /* libboost_regex.dylib */; };
+		6B02CD66213C5D3E006D8E23 /* libboost_system.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD28213C5D2B006D8E23 /* libboost_system.dylib */; };
+		6B02CD67213C5D3E006D8E23 /* libboost_thread.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD0E213C5D29006D8E23 /* libboost_thread.dylib */; };
+		6B02CD68213C5D3E006D8E23 /* libGLEW.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD31213C5D2B006D8E23 /* libGLEW.2.0.0.dylib */; };
+		6B02CD6B213C5D3E006D8E23 /* libHalf.12.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1E213C5D2A006D8E23 /* libHalf.12.0.0.dylib */; };
+		6B02CD6E213C5D3E006D8E23 /* libIex-2_2.12.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD29213C5D2B006D8E23 /* libIex-2_2.12.0.0.dylib */; };
+		6B02CD71213C5D3E006D8E23 /* libIexMath-2_2.12.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD22213C5D2A006D8E23 /* libIexMath-2_2.12.0.0.dylib */; };
+		6B02CD74213C5D3E006D8E23 /* libIlmImf-2_2.22.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD24213C5D2A006D8E23 /* libIlmImf-2_2.22.0.0.dylib */; };
+		6B02CD77213C5D3E006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD30213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
+		6B02CD7A213C5D3E006D8E23 /* libIlmThread-2_2.12.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD11213C5D29006D8E23 /* libIlmThread-2_2.12.0.0.dylib */; };
+		6B02CD7D213C5D3E006D8E23 /* libImath-2_2.12.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD34213C5D2B006D8E23 /* libImath-2_2.12.0.0.dylib */; };
+		6B02CD80213C5D3E006D8E23 /* libosdCPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD21213C5D2A006D8E23 /* libosdCPU.3.1.1.dylib */; };
+		6B02CD81213C5D3E006D8E23 /* libosdCPU.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2C213C5D2B006D8E23 /* libosdCPU.dylib */; };
+		6B02CD82213C5D3E006D8E23 /* libosdGPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD14213C5D29006D8E23 /* libosdGPU.3.1.1.dylib */; };
+		6B02CD84213C5D3E006D8E23 /* libtbb.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1B213C5D2A006D8E23 /* libtbb.dylib */; };
+		6B02CD86213C5D3E006D8E23 /* libtbbmalloc.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2E213C5D2B006D8E23 /* libtbbmalloc.dylib */; };
+		6B02CD87213C5D3E006D8E23 /* libusd_ms.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1C213C5D2A006D8E23 /* libusd_ms.dylib */; };
+		6B02CD88213C5D3E006D8E23 /* libz.1.2.11.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD17213C5D29006D8E23 /* libz.1.2.11.dylib */; };
 		6B46E8AA21271E310057FEEA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8A921271E310057FEEA /* AppDelegate.swift */; };
 		6B46E8AC21271E330057FEEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AB21271E330057FEEA /* Assets.xcassets */; };
 		6B46E8AF21271E330057FEEA /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B46E8AD21271E330057FEEA /* MainMenu.xib */; };
+		6B46E8BB21271E330057FEEA /* UsdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* UsdviewTests.swift */; };
 		6B4C6980213BA07900A3E692 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C697F213BA07900A3E692 /* DocumentController.swift */; };
 		6B4C6982213BA64D00A3E692 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C6981213BA64D00A3E692 /* Document.swift */; };
-		6B46E8BB21271E330057FEEA /* UsdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* UsdviewTests.swift */; };
-		6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
-		6B4D77CD213B631E00B150B2 /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79A213B3796001C880B /* libGLEW.a */; };
-		6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
-		6B4D77CF213B643600B150B2 /* libusd_ms.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; };
-		6B4D77D1213B6D0F00B150B2 /* libosdCPU.3.1.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
-		6B72C77A2139C0E400DB1674 /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7642139C0E300DB1674 /* libboost_regex.dylib */; };
-		6B72C77B2139C0E400DB1674 /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7652139C0E300DB1674 /* libboost_thread.dylib */; };
-		6B72C77C2139C0E400DB1674 /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */; };
-		6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
-		6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
-		6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
-		6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */; };
-		6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76C2139C0E300DB1674 /* libboost_system.dylib */; };
-		6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
-		6B72C7842139C0E400DB1674 /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */; };
-		6B72C7852139C0E400DB1674 /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */; };
-		6B72C7862139C0E400DB1674 /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */; };
-		6B72C7872139C0E400DB1674 /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7712139C0E300DB1674 /* libtbb.dylib */; };
-		6B72C7882139C0E400DB1674 /* libusd_ms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; };
-		6B72C7892139C0E400DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
-		6B72C78A2139C0E400DB1674 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
-		6B72C78B2139C0E400DB1674 /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */; };
-		6B72C78C2139C0E400DB1674 /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */; };
-		6B72C78D2139C0E400DB1674 /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
-		6B72C78E2139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */; };
-		6B72C78F2139C0E400DB1674 /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */; };
-		DAB2E769213B3789001C880B /* libboost_atomic.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */; };
-		DAB2E76A213B3789001C880B /* libboost_date_time.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */; };
-		DAB2E76B213B3789001C880B /* libboost_filesystem.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */; };
-		DAB2E76C213B3789001C880B /* libboost_program_options.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */; };
-		DAB2E76D213B3789001C880B /* libboost_regex.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7642139C0E300DB1674 /* libboost_regex.dylib */; };
-		DAB2E76E213B3789001C880B /* libboost_system.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76C2139C0E300DB1674 /* libboost_system.dylib */; };
-		DAB2E76F213B3789001C880B /* libboost_thread.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7652139C0E300DB1674 /* libboost_thread.dylib */; };
-		DAB2E770213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
-		DAB2E771213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
-		DAB2E772213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */; };
-		DAB2E773213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */; };
-		DAB2E774213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */; };
-		DAB2E775213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */; };
-		DAB2E776213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */; };
-		DAB2E777213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */; };
-		DAB2E778213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */; };
-		DAB2E779213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */; };
-		DAB2E77A213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */; };
-		DAB2E77B213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */; };
-		DAB2E77C213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
-		DAB2E77D213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
-		DAB2E77E213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */; };
-		DAB2E77F213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
-		DAB2E780213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
-		DAB2E781213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */; };
-		DAB2E782213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
-		DAB2E783213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
-		DAB2E784213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */; };
-		DAB2E785213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */; };
-		DAB2E786213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */; };
-		DAB2E787213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */; };
-		DAB2E788213B3789001C880B /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
-		DAB2E789213B3789001C880B /* libosdCPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */; };
-		DAB2E78A213B3789001C880B /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
-		DAB2E78B213B3789001C880B /* libosdGPU.3.1.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */; };
-		DAB2E78C213B3789001C880B /* libtbb.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7712139C0E300DB1674 /* libtbb.dylib */; };
-		DAB2E78D213B3789001C880B /* libtbbmalloc_proxy.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */; };
-		DAB2E78E213B3789001C880B /* libtbbmalloc.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */; };
-		DAB2E78F213B3789001C880B /* libusd_ms.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C7722139C0E300DB1674 /* libusd_ms.dylib */; };
-		DAB2E790213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
-		DAB2E791213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
-		DAB2E792213B3789001C880B /* libz.1.2.11.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */; };
-		DAB2E79D213B3796001C880B /* libosdCPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E794213B3796001C880B /* libosdCPU.a */; };
-		DAB2E79F213B3796001C880B /* libz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E796213B3796001C880B /* libz.a */; };
-		DAB2E7A0213B3796001C880B /* libosdGPU.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E797213B3796001C880B /* libosdGPU.a */; };
-		DAB2E7A3213B3796001C880B /* libGLEW.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAB2E79A213B3796001C880B /* libGLEW.a */; };
 		DAB2E7AB213B3C33001C880B /* usd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A5213B3C32001C880B /* usd.swift */; };
 		DAB2E7AC213B3C33001C880B /* sdf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A7213B3C33001C880B /* sdf.cpp */; };
 		DAB2E7AD213B3C33001C880B /* usd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A8213B3C33001C880B /* usd.cpp */; };
@@ -108,16 +97,149 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				6B4D77D1213B6D0F00B150B2 /* libosdCPU.3.1.1.dylib in CopyFiles */,
-				6B4D77CF213B643600B150B2 /* libusd_ms.dylib in CopyFiles */,
-				6B4D77CE213B637800B150B2 /* libosdGPU.3.1.1.dylib in CopyFiles */,
-				6B4D77CC213B62B800B150B2 /* libGLEW.2.0.0.dylib in CopyFiles */,
+				6B02CD61213C5D3E006D8E23 /* libboost_atomic.dylib in CopyFiles */,
+				6B02CD62213C5D3E006D8E23 /* libboost_date_time.dylib in CopyFiles */,
+				6B02CD63213C5D3E006D8E23 /* libboost_filesystem.dylib in CopyFiles */,
+				6B02CD64213C5D3E006D8E23 /* libboost_program_options.dylib in CopyFiles */,
+				6B02CD65213C5D3E006D8E23 /* libboost_regex.dylib in CopyFiles */,
+				6B02CD66213C5D3E006D8E23 /* libboost_system.dylib in CopyFiles */,
+				6B02CD67213C5D3E006D8E23 /* libboost_thread.dylib in CopyFiles */,
+				6B02CD68213C5D3E006D8E23 /* libGLEW.2.0.0.dylib in CopyFiles */,
+				6B02CD6B213C5D3E006D8E23 /* libHalf.12.0.0.dylib in CopyFiles */,
+				6B02CD6E213C5D3E006D8E23 /* libIex-2_2.12.0.0.dylib in CopyFiles */,
+				6B02CD71213C5D3E006D8E23 /* libIexMath-2_2.12.0.0.dylib in CopyFiles */,
+				6B02CD74213C5D3E006D8E23 /* libIlmImf-2_2.22.0.0.dylib in CopyFiles */,
+				6B02CD77213C5D3E006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib in CopyFiles */,
+				6B02CD7A213C5D3E006D8E23 /* libIlmThread-2_2.12.0.0.dylib in CopyFiles */,
+				6B02CD7D213C5D3E006D8E23 /* libImath-2_2.12.0.0.dylib in CopyFiles */,
+				6B02CD80213C5D3E006D8E23 /* libosdCPU.3.1.1.dylib in CopyFiles */,
+				6B02CD81213C5D3E006D8E23 /* libosdCPU.dylib in CopyFiles */,
+				6B02CD82213C5D3E006D8E23 /* libosdGPU.3.1.1.dylib in CopyFiles */,
+				6B02CD84213C5D3E006D8E23 /* libtbb.dylib in CopyFiles */,
+				6B02CD86213C5D3E006D8E23 /* libtbbmalloc.dylib in CopyFiles */,
+				6B02CD87213C5D3E006D8E23 /* libusd_ms.dylib in CopyFiles */,
+				6B02CD88213C5D3E006D8E23 /* libz.1.2.11.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6B02CC95213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CC96213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CC97213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CC9B213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CC9C213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CC9D213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCA0213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCA3213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCA4213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCA7213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCAA213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCAC213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CCAD213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCB0213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCB3213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCB5213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CCB6213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCB9213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCBB213C5CF7006D8E23 /* ptexTexture.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = ptexTexture.glslfx; sourceTree = "<group>"; };
+		6B02CCBC213C5CF7006D8E23 /* simpleShadowMapShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = simpleShadowMapShader.glslfx; sourceTree = "<group>"; };
+		6B02CCBD213C5CF7006D8E23 /* pcfShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = pcfShader.glslfx; sourceTree = "<group>"; };
+		6B02CCBE213C5CF7006D8E23 /* simpleLighting.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = simpleLighting.glslfx; sourceTree = "<group>"; };
+		6B02CCC1213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCC4213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCC5213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCC7213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CCC9213C5CF7006D8E23 /* schemaClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = schemaClass.cpp; sourceTree = "<group>"; };
+		6B02CCCA213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCCB213C5CF7006D8E23 /* tokens.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = tokens.h; sourceTree = "<group>"; };
+		6B02CCCC213C5CF7006D8E23 /* api.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = api.h; sourceTree = "<group>"; };
+		6B02CCCD213C5CF7006D8E23 /* schemaClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = schemaClass.h; sourceTree = "<group>"; };
+		6B02CCCE213C5CF7006D8E23 /* wrapSchemaClass.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapSchemaClass.cpp; sourceTree = "<group>"; };
+		6B02CCCF213C5CF7006D8E23 /* wrapTokens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = wrapTokens.cpp; sourceTree = "<group>"; };
+		6B02CCD0213C5CF7006D8E23 /* tokens.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = tokens.cpp; sourceTree = "<group>"; };
+		6B02CCD3213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCD4213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCD6213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CCD9213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCDC213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCDD213C5CF7006D8E23 /* generatedSchema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = generatedSchema.usda; sourceTree = "<group>"; };
+		6B02CCDF213C5CF7006D8E23 /* schema.usda */ = {isa = PBXFileReference; lastKnownFileType = text; path = schema.usda; sourceTree = "<group>"; };
+		6B02CCE2213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCE5213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCE8213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCEA213C5CF7006D8E23 /* previewSurface.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = previewSurface.glslfx; sourceTree = "<group>"; };
+		6B02CCEB213C5CF7006D8E23 /* drawMode.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = drawMode.glslfx; sourceTree = "<group>"; };
+		6B02CCEE213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCF0213C5CF7006D8E23 /* renderPassShadowShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPassShadowShader.glslfx; sourceTree = "<group>"; };
+		6B02CCF1213C5CF7006D8E23 /* simpleLightingShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = simpleLightingShader.glslfx; sourceTree = "<group>"; };
+		6B02CCF2213C5CF7006D8E23 /* renderPassShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPassShader.glslfx; sourceTree = "<group>"; };
+		6B02CCF3213C5CF7006D8E23 /* renderPass.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPass.glslfx; sourceTree = "<group>"; };
+		6B02CCF4213C5CF7006D8E23 /* selection.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = selection.glslfx; sourceTree = "<group>"; };
+		6B02CCF5213C5CF7006D8E23 /* renderPassIdShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPassIdShader.glslfx; sourceTree = "<group>"; };
+		6B02CCF8213C5CF7006D8E23 /* plugInfo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plugInfo.json; sourceTree = "<group>"; };
+		6B02CCFA213C5CF7006D8E23 /* fallbackLightingShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = fallbackLightingShader.glslfx; sourceTree = "<group>"; };
+		6B02CCFB213C5CF7006D8E23 /* frustumCull.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = frustumCull.glslfx; sourceTree = "<group>"; };
+		6B02CCFC213C5CF7006D8E23 /* mesh.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = mesh.glslfx; sourceTree = "<group>"; };
+		6B02CCFD213C5CF7006D8E23 /* lighting.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = lighting.glslfx; sourceTree = "<group>"; };
+		6B02CCFE213C5CF7006D8E23 /* fallbackLighting.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = fallbackLighting.glslfx; sourceTree = "<group>"; };
+		6B02CCFF213C5CF7006D8E23 /* pointId.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = pointId.glslfx; sourceTree = "<group>"; };
+		6B02CD00213C5CF7006D8E23 /* meshNormal.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = meshNormal.glslfx; sourceTree = "<group>"; };
+		6B02CD01213C5CF7006D8E23 /* edgeId.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = edgeId.glslfx; sourceTree = "<group>"; };
+		6B02CD02213C5CF7006D8E23 /* lightingIntegrationShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = lightingIntegrationShader.glslfx; sourceTree = "<group>"; };
+		6B02CD03213C5CF7006D8E23 /* ptexTexture.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = ptexTexture.glslfx; sourceTree = "<group>"; };
+		6B02CD04213C5CF7006D8E23 /* compute.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = compute.glslfx; sourceTree = "<group>"; };
+		6B02CD05213C5CF7006D8E23 /* renderPassShader.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPassShader.glslfx; sourceTree = "<group>"; };
+		6B02CD06213C5CF7006D8E23 /* meshWire.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = meshWire.glslfx; sourceTree = "<group>"; };
+		6B02CD07213C5CF7006D8E23 /* points.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = points.glslfx; sourceTree = "<group>"; };
+		6B02CD08213C5CF7006D8E23 /* renderPass.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = renderPass.glslfx; sourceTree = "<group>"; };
+		6B02CD09213C5CF7006D8E23 /* terminals.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = terminals.glslfx; sourceTree = "<group>"; };
+		6B02CD0A213C5CF7006D8E23 /* fallbackSurface.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = fallbackSurface.glslfx; sourceTree = "<group>"; };
+		6B02CD0B213C5CF7006D8E23 /* basisCurves.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = basisCurves.glslfx; sourceTree = "<group>"; };
+		6B02CD0C213C5CF7006D8E23 /* instancing.glslfx */ = {isa = PBXFileReference; lastKnownFileType = text; path = instancing.glslfx; sourceTree = "<group>"; };
+		6B02CD0D213C5D29006D8E23 /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = deps/lib/libboost_regex.dylib; sourceTree = "<group>"; };
+		6B02CD0E213C5D29006D8E23 /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = deps/lib/libboost_thread.dylib; sourceTree = "<group>"; };
+		6B02CD0F213C5D29006D8E23 /* libIex-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.dylib"; path = "deps/lib/libIex-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD10213C5D29006D8E23 /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = deps/lib/libboost_program_options.dylib; sourceTree = "<group>"; };
+		6B02CD11213C5D29006D8E23 /* libIlmThread-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.0.0.dylib"; path = "deps/lib/libIlmThread-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD12213C5D29006D8E23 /* libosdGPU.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdGPU.dylib; path = deps/lib/libosdGPU.dylib; sourceTree = "<group>"; };
+		6B02CD13213C5D29006D8E23 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = deps/lib/libz.dylib; sourceTree = "<group>"; };
+		6B02CD14213C5D29006D8E23 /* libosdGPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdGPU.3.1.1.dylib; path = deps/lib/libosdGPU.3.1.1.dylib; sourceTree = "<group>"; };
+		6B02CD15213C5D29006D8E23 /* libtbbmalloc_proxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc_proxy.dylib; path = deps/lib/libtbbmalloc_proxy.dylib; sourceTree = "<group>"; };
+		6B02CD16213C5D29006D8E23 /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = deps/lib/libboost_filesystem.dylib; sourceTree = "<group>"; };
+		6B02CD17213C5D29006D8E23 /* libz.1.2.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.11.dylib; path = deps/lib/libz.1.2.11.dylib; sourceTree = "<group>"; };
+		6B02CD18213C5D29006D8E23 /* libIlmImf-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.dylib"; path = "deps/lib/libIlmImf-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD19213C5D29006D8E23 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = deps/lib/libz.1.dylib; sourceTree = "<group>"; };
+		6B02CD1A213C5D2A006D8E23 /* libIlmImf-2_2.22.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.dylib"; path = "deps/lib/libIlmImf-2_2.22.dylib"; sourceTree = "<group>"; };
+		6B02CD1B213C5D2A006D8E23 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = deps/lib/libtbb.dylib; sourceTree = "<group>"; };
+		6B02CD1C213C5D2A006D8E23 /* libusd_ms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusd_ms.dylib; path = deps/lib/libusd_ms.dylib; sourceTree = "<group>"; };
+		6B02CD1D213C5D2A006D8E23 /* libIlmThread-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.dylib"; path = "deps/lib/libIlmThread-2_2.12.dylib"; sourceTree = "<group>"; };
+		6B02CD1E213C5D2A006D8E23 /* libHalf.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.0.0.dylib; path = deps/lib/libHalf.12.0.0.dylib; sourceTree = "<group>"; };
+		6B02CD1F213C5D2A006D8E23 /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = deps/lib/libboost_date_time.dylib; sourceTree = "<group>"; };
+		6B02CD20213C5D2A006D8E23 /* libGLEW.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.dylib; path = deps/lib/libGLEW.dylib; sourceTree = "<group>"; };
+		6B02CD21213C5D2A006D8E23 /* libosdCPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdCPU.3.1.1.dylib; path = deps/lib/libosdCPU.3.1.1.dylib; sourceTree = "<group>"; };
+		6B02CD22213C5D2A006D8E23 /* libIexMath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.0.0.dylib"; path = "deps/lib/libIexMath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD23213C5D2A006D8E23 /* libHalf.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.dylib; path = deps/lib/libHalf.12.dylib; sourceTree = "<group>"; };
+		6B02CD24213C5D2A006D8E23 /* libIlmImf-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImf-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD25213C5D2A006D8E23 /* libIlmThread-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.dylib"; path = "deps/lib/libIlmThread-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD26213C5D2A006D8E23 /* libImath-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.dylib"; path = "deps/lib/libImath-2_2.12.dylib"; sourceTree = "<group>"; };
+		6B02CD27213C5D2A006D8E23 /* libIex-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.dylib"; path = "deps/lib/libIex-2_2.12.dylib"; sourceTree = "<group>"; };
+		6B02CD28213C5D2B006D8E23 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = deps/lib/libboost_system.dylib; sourceTree = "<group>"; };
+		6B02CD29213C5D2B006D8E23 /* libIex-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.0.0.dylib"; path = "deps/lib/libIex-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD2A213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.dylib"; path = "deps/lib/libIlmImfUtil-2_2.22.dylib"; sourceTree = "<group>"; };
+		6B02CD2B213C5D2B006D8E23 /* libHalf.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.dylib; path = deps/lib/libHalf.dylib; sourceTree = "<group>"; };
+		6B02CD2C213C5D2B006D8E23 /* libosdCPU.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdCPU.dylib; path = deps/lib/libosdCPU.dylib; sourceTree = "<group>"; };
+		6B02CD2D213C5D2B006D8E23 /* libboost_atomic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_atomic.dylib; path = deps/lib/libboost_atomic.dylib; sourceTree = "<group>"; };
+		6B02CD2E213C5D2B006D8E23 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = deps/lib/libtbbmalloc.dylib; sourceTree = "<group>"; };
+		6B02CD2F213C5D2B006D8E23 /* libImath-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.dylib"; path = "deps/lib/libImath-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD30213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImfUtil-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD31213C5D2B006D8E23 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = deps/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
+		6B02CD32213C5D2B006D8E23 /* libGLEW.2.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.dylib; path = deps/lib/libGLEW.2.0.dylib; sourceTree = "<group>"; };
+		6B02CD33213C5D2B006D8E23 /* libIlmImfUtil-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.dylib"; path = "deps/lib/libIlmImfUtil-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD34213C5D2B006D8E23 /* libImath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.0.0.dylib"; path = "deps/lib/libImath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
+		6B02CD35213C5D2B006D8E23 /* libIexMath-2_2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.dylib"; path = "deps/lib/libIexMath-2_2.dylib"; sourceTree = "<group>"; };
+		6B02CD36213C5D2C006D8E23 /* libIexMath-2_2.12.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.dylib"; path = "deps/lib/libIexMath-2_2.12.dylib"; sourceTree = "<group>"; };
 		6B46E8A621271E310057FEEA /* usdview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = usdview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B46E8A921271E310057FEEA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6B46E8AB21271E330057FEEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -129,37 +251,6 @@
 		6B46E8BC21271E330057FEEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6B4C697F213BA07900A3E692 /* DocumentController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentController.swift; sourceTree = "<group>"; };
 		6B4C6981213BA64D00A3E692 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		6B72C7642139C0E300DB1674 /* libboost_regex.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_regex.dylib; path = deps/lib/libboost_regex.dylib; sourceTree = "<group>"; };
-		6B72C7652139C0E300DB1674 /* libboost_thread.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_thread.dylib; path = deps/lib/libboost_thread.dylib; sourceTree = "<group>"; };
-		6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_program_options.dylib; path = deps/lib/libboost_program_options.dylib; sourceTree = "<group>"; };
-		6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmThread-2_2.12.0.0.dylib"; path = "deps/lib/libIlmThread-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImf-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImf-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
-		6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdGPU.3.1.1.dylib; path = deps/lib/libosdGPU.3.1.1.dylib; sourceTree = "<group>"; };
-		6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc_proxy.dylib; path = deps/lib/libtbbmalloc_proxy.dylib; sourceTree = "<group>"; };
-		6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_filesystem.dylib; path = deps/lib/libboost_filesystem.dylib; sourceTree = "<group>"; };
-		6B72C76C2139C0E300DB1674 /* libboost_system.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_system.dylib; path = deps/lib/libboost_system.dylib; sourceTree = "<group>"; };
-		6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.2.11.dylib; path = deps/lib/libz.1.2.11.dylib; sourceTree = "<group>"; };
-		6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIex-2_2.12.0.0.dylib"; path = "deps/lib/libIex-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbbmalloc.dylib; path = deps/lib/libtbbmalloc.dylib; sourceTree = "<group>"; };
-		6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_atomic.dylib; path = deps/lib/libboost_atomic.dylib; sourceTree = "<group>"; };
-		6B72C7712139C0E300DB1674 /* libtbb.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libtbb.dylib; path = deps/lib/libtbb.dylib; sourceTree = "<group>"; };
-		6B72C7722139C0E300DB1674 /* libusd_ms.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libusd_ms.dylib; path = deps/lib/libusd_ms.dylib; sourceTree = "<group>"; };
-		6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIlmImfUtil-2_2.22.0.0.dylib"; path = "deps/lib/libIlmImfUtil-2_2.22.0.0.dylib"; sourceTree = "<group>"; };
-		6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = deps/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
-		6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libHalf.12.0.0.dylib; path = deps/lib/libHalf.12.0.0.dylib; sourceTree = "<group>"; };
-		6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libboost_date_time.dylib; path = deps/lib/libboost_date_time.dylib; sourceTree = "<group>"; };
-		6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libosdCPU.3.1.1.dylib; path = deps/lib/libosdCPU.3.1.1.dylib; sourceTree = "<group>"; };
-		6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libIexMath-2_2.12.0.0.dylib"; path = "deps/lib/libIexMath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libImath-2_2.12.0.0.dylib"; path = "deps/lib/libImath-2_2.12.0.0.dylib"; sourceTree = "<group>"; };
-		DAB2E793213B3796001C880B /* libImath-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libImath-2_2.la"; path = "deps/lib/libImath-2_2.la"; sourceTree = "<group>"; };
-		DAB2E794213B3796001C880B /* libosdCPU.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosdCPU.a; path = deps/lib/libosdCPU.a; sourceTree = "<group>"; };
-		DAB2E795213B3796001C880B /* libIexMath-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIexMath-2_2.la"; path = "deps/lib/libIexMath-2_2.la"; sourceTree = "<group>"; };
-		DAB2E796213B3796001C880B /* libz.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libz.a; path = deps/lib/libz.a; sourceTree = "<group>"; };
-		DAB2E797213B3796001C880B /* libosdGPU.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libosdGPU.a; path = deps/lib/libosdGPU.a; sourceTree = "<group>"; };
-		DAB2E798213B3796001C880B /* libIlmThread-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIlmThread-2_2.la"; path = "deps/lib/libIlmThread-2_2.la"; sourceTree = "<group>"; };
-		DAB2E799213B3796001C880B /* libHalf.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = libHalf.la; path = deps/lib/libHalf.la; sourceTree = "<group>"; };
-		DAB2E79A213B3796001C880B /* libGLEW.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGLEW.a; path = deps/lib/libGLEW.a; sourceTree = "<group>"; };
-		DAB2E79B213B3796001C880B /* libIex-2_2.la */ = {isa = PBXFileReference; lastKnownFileType = text; name = "libIex-2_2.la"; path = "deps/lib/libIex-2_2.la"; sourceTree = "<group>"; };
 		DAB2E7A5213B3C32001C880B /* usd.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usd.swift; sourceTree = "<group>"; };
 		DAB2E7A6213B3C33001C880B /* sdf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = sdf.hpp; sourceTree = "<group>"; };
 		DAB2E7A7213B3C33001C880B /* sdf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = sdf.cpp; sourceTree = "<group>"; };
@@ -174,28 +265,45 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6B72C77A2139C0E400DB1674 /* libboost_regex.dylib in Frameworks */,
-				6B72C77B2139C0E400DB1674 /* libboost_thread.dylib in Frameworks */,
-				6B72C77C2139C0E400DB1674 /* libboost_program_options.dylib in Frameworks */,
-				6B72C77D2139C0E400DB1674 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
-				6B72C77E2139C0E400DB1674 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
-				6B72C77F2139C0E400DB1674 /* libosdGPU.3.1.1.dylib in Frameworks */,
-				6B72C7812139C0E400DB1674 /* libboost_filesystem.dylib in Frameworks */,
-				6B72C7822139C0E400DB1674 /* libboost_system.dylib in Frameworks */,
-				6B72C7832139C0E400DB1674 /* libz.1.2.11.dylib in Frameworks */,
-				6B72C7842139C0E400DB1674 /* libIex-2_2.12.0.0.dylib in Frameworks */,
-				6B72C7852139C0E400DB1674 /* libtbbmalloc.dylib in Frameworks */,
-				6B72C7862139C0E400DB1674 /* libboost_atomic.dylib in Frameworks */,
-				6B72C7872139C0E400DB1674 /* libtbb.dylib in Frameworks */,
-				6B72C7882139C0E400DB1674 /* libusd_ms.dylib in Frameworks */,
-				6B72C7892139C0E400DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
-				6B72C78A2139C0E400DB1674 /* libGLEW.2.0.0.dylib in Frameworks */,
-				6B72C78B2139C0E400DB1674 /* libHalf.12.0.0.dylib in Frameworks */,
-				6B72C78C2139C0E400DB1674 /* libboost_date_time.dylib in Frameworks */,
-				6B72C78D2139C0E400DB1674 /* libosdCPU.3.1.1.dylib in Frameworks */,
-				6B72C78E2139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
-				6B4D77CD213B631E00B150B2 /* libGLEW.a in Frameworks */,
-				6B72C78F2139C0E400DB1674 /* libImath-2_2.12.0.0.dylib in Frameworks */,
+				6B02CD37213C5D2C006D8E23 /* libboost_regex.dylib in Frameworks */,
+				6B02CD38213C5D2C006D8E23 /* libboost_thread.dylib in Frameworks */,
+				6B02CD39213C5D2C006D8E23 /* libIex-2_2.dylib in Frameworks */,
+				6B02CD3A213C5D2C006D8E23 /* libboost_program_options.dylib in Frameworks */,
+				6B02CD3B213C5D2C006D8E23 /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
+				6B02CD3C213C5D2C006D8E23 /* libosdGPU.dylib in Frameworks */,
+				6B02CD3D213C5D2C006D8E23 /* libz.dylib in Frameworks */,
+				6B02CD3E213C5D2C006D8E23 /* libosdGPU.3.1.1.dylib in Frameworks */,
+				6B02CD40213C5D2C006D8E23 /* libboost_filesystem.dylib in Frameworks */,
+				6B02CD41213C5D2C006D8E23 /* libz.1.2.11.dylib in Frameworks */,
+				6B02CD42213C5D2C006D8E23 /* libIlmImf-2_2.dylib in Frameworks */,
+				6B02CD43213C5D2C006D8E23 /* libz.1.dylib in Frameworks */,
+				6B02CD44213C5D2C006D8E23 /* libIlmImf-2_2.22.dylib in Frameworks */,
+				6B02CD45213C5D2C006D8E23 /* libtbb.dylib in Frameworks */,
+				6B02CD46213C5D2C006D8E23 /* libusd_ms.dylib in Frameworks */,
+				6B02CD47213C5D2C006D8E23 /* libIlmThread-2_2.12.dylib in Frameworks */,
+				6B02CD48213C5D2C006D8E23 /* libHalf.12.0.0.dylib in Frameworks */,
+				6B02CD49213C5D2C006D8E23 /* libboost_date_time.dylib in Frameworks */,
+				6B02CD4A213C5D2C006D8E23 /* libGLEW.dylib in Frameworks */,
+				6B02CD4B213C5D2C006D8E23 /* libosdCPU.3.1.1.dylib in Frameworks */,
+				6B02CD4C213C5D2C006D8E23 /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
+				6B02CD4D213C5D2C006D8E23 /* libHalf.12.dylib in Frameworks */,
+				6B02CD4E213C5D2C006D8E23 /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
+				6B02CD4F213C5D2C006D8E23 /* libIlmThread-2_2.dylib in Frameworks */,
+				6B02CD50213C5D2C006D8E23 /* libImath-2_2.12.dylib in Frameworks */,
+				6B02CD51213C5D2C006D8E23 /* libIex-2_2.12.dylib in Frameworks */,
+				6B02CD52213C5D2C006D8E23 /* libboost_system.dylib in Frameworks */,
+				6B02CD53213C5D2C006D8E23 /* libIex-2_2.12.0.0.dylib in Frameworks */,
+				6B02CD54213C5D2C006D8E23 /* libIlmImfUtil-2_2.22.dylib in Frameworks */,
+				6B02CD55213C5D2C006D8E23 /* libHalf.dylib in Frameworks */,
+				6B02CD56213C5D2C006D8E23 /* libosdCPU.dylib in Frameworks */,
+				6B02CD57213C5D2C006D8E23 /* libboost_atomic.dylib in Frameworks */,
+				6B02CD58213C5D2C006D8E23 /* libtbbmalloc.dylib in Frameworks */,
+				6B02CD59213C5D2C006D8E23 /* libImath-2_2.dylib in Frameworks */,
+				6B02CD5A213C5D2C006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
+				6B02CD5B213C5D2C006D8E23 /* libGLEW.2.0.0.dylib in Frameworks */,
+				6B02CD5D213C5D2C006D8E23 /* libIlmImfUtil-2_2.dylib in Frameworks */,
+				6B02CD5E213C5D2C006D8E23 /* libImath-2_2.12.0.0.dylib in Frameworks */,
+				6B02CD60213C5D2C006D8E23 /* libIexMath-2_2.12.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -203,61 +311,512 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DAB2E79D213B3796001C880B /* libosdCPU.a in Frameworks */,
-				DAB2E79F213B3796001C880B /* libz.a in Frameworks */,
-				DAB2E7A0213B3796001C880B /* libosdGPU.a in Frameworks */,
-				DAB2E7A3213B3796001C880B /* libGLEW.a in Frameworks */,
-				DAB2E769213B3789001C880B /* libboost_atomic.dylib in Frameworks */,
-				DAB2E76A213B3789001C880B /* libboost_date_time.dylib in Frameworks */,
-				DAB2E76B213B3789001C880B /* libboost_filesystem.dylib in Frameworks */,
-				DAB2E76C213B3789001C880B /* libboost_program_options.dylib in Frameworks */,
-				DAB2E76D213B3789001C880B /* libboost_regex.dylib in Frameworks */,
-				DAB2E76E213B3789001C880B /* libboost_system.dylib in Frameworks */,
-				DAB2E76F213B3789001C880B /* libboost_thread.dylib in Frameworks */,
-				DAB2E770213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */,
-				DAB2E771213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */,
-				DAB2E772213B3789001C880B /* libGLEW.2.0.0.dylib in Frameworks */,
-				DAB2E773213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */,
-				DAB2E774213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */,
-				DAB2E775213B3789001C880B /* libHalf.12.0.0.dylib in Frameworks */,
-				DAB2E776213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E777213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E778213B3789001C880B /* libIex-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E779213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E77A213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E77B213B3789001C880B /* libIexMath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E77C213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E77D213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E77E213B3789001C880B /* libIlmImf-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E77F213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E780213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E781213B3789001C880B /* libIlmImfUtil-2_2.22.0.0.dylib in Frameworks */,
-				DAB2E782213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E783213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E784213B3789001C880B /* libIlmThread-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E785213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E786213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E787213B3789001C880B /* libImath-2_2.12.0.0.dylib in Frameworks */,
-				DAB2E788213B3789001C880B /* libosdCPU.3.1.1.dylib in Frameworks */,
-				DAB2E789213B3789001C880B /* libosdCPU.3.1.1.dylib in Frameworks */,
-				DAB2E78A213B3789001C880B /* libosdGPU.3.1.1.dylib in Frameworks */,
-				DAB2E78B213B3789001C880B /* libosdGPU.3.1.1.dylib in Frameworks */,
-				DAB2E78C213B3789001C880B /* libtbb.dylib in Frameworks */,
-				DAB2E78D213B3789001C880B /* libtbbmalloc_proxy.dylib in Frameworks */,
-				DAB2E78E213B3789001C880B /* libtbbmalloc.dylib in Frameworks */,
-				DAB2E78F213B3789001C880B /* libusd_ms.dylib in Frameworks */,
-				DAB2E790213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
-				DAB2E791213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
-				DAB2E792213B3789001C880B /* libz.1.2.11.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6B02CC8B213C5B6B006D8E23 /* deps */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC8C213C5CAB006D8E23 /* lib */,
+			);
+			path = deps;
+			sourceTree = "<group>";
+		};
+		6B02CC8C213C5CAB006D8E23 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC91213C5CF7006D8E23 /* usd */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		6B02CC91213C5CF7006D8E23 /* usd */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC92213C5CF7006D8E23 /* usdShade */,
+				6B02CC98213C5CF7006D8E23 /* usdUI */,
+				6B02CC9E213C5CF7006D8E23 /* usdSkelImaging */,
+				6B02CCA1213C5CF7006D8E23 /* sdf */,
+				6B02CCA4213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCA5213C5CF7006D8E23 /* hd */,
+				6B02CCA8213C5CF7006D8E23 /* usdSkel */,
+				6B02CCAE213C5CF7006D8E23 /* usdHydra */,
+				6B02CCB1213C5CF7006D8E23 /* usdRi */,
+				6B02CCB7213C5CF7006D8E23 /* glf */,
+				6B02CCBF213C5CF7006D8E23 /* usdImaging */,
+				6B02CCC2213C5CF7006D8E23 /* usd */,
+				6B02CCD1213C5CF7006D8E23 /* usdLux */,
+				6B02CCD7213C5CF7006D8E23 /* ar */,
+				6B02CCDA213C5CF7006D8E23 /* usdGeom */,
+				6B02CCE0213C5CF7006D8E23 /* hdStream */,
+				6B02CCE3213C5CF7006D8E23 /* ndr */,
+				6B02CCE6213C5CF7006D8E23 /* usdImagingGL */,
+				6B02CCEC213C5CF7006D8E23 /* hdx */,
+				6B02CCF6213C5CF7006D8E23 /* hdSt */,
+			);
+			path = usd;
+			sourceTree = "<group>";
+		};
+		6B02CC92213C5CF7006D8E23 /* usdShade */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC93213C5CF7006D8E23 /* resources */,
+			);
+			path = usdShade;
+			sourceTree = "<group>";
+		};
+		6B02CC93213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC94213C5CF7006D8E23 /* usdShade */,
+				6B02CC96213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CC97213C5CF7006D8E23 /* generatedSchema.usda */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CC94213C5CF7006D8E23 /* usdShade */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC95213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdShade;
+			sourceTree = "<group>";
+		};
+		6B02CC98213C5CF7006D8E23 /* usdUI */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC99213C5CF7006D8E23 /* resources */,
+			);
+			path = usdUI;
+			sourceTree = "<group>";
+		};
+		6B02CC99213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC9A213C5CF7006D8E23 /* usdUI */,
+				6B02CC9C213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CC9D213C5CF7006D8E23 /* generatedSchema.usda */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CC9A213C5CF7006D8E23 /* usdUI */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC9B213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdUI;
+			sourceTree = "<group>";
+		};
+		6B02CC9E213C5CF7006D8E23 /* usdSkelImaging */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CC9F213C5CF7006D8E23 /* resources */,
+			);
+			path = usdSkelImaging;
+			sourceTree = "<group>";
+		};
+		6B02CC9F213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA0213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCA1213C5CF7006D8E23 /* sdf */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA2213C5CF7006D8E23 /* resources */,
+			);
+			path = sdf;
+			sourceTree = "<group>";
+		};
+		6B02CCA2213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA3213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCA5213C5CF7006D8E23 /* hd */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA6213C5CF7006D8E23 /* resources */,
+			);
+			path = hd;
+			sourceTree = "<group>";
+		};
+		6B02CCA6213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA7213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCA8213C5CF7006D8E23 /* usdSkel */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCA9213C5CF7006D8E23 /* resources */,
+			);
+			path = usdSkel;
+			sourceTree = "<group>";
+		};
+		6B02CCA9213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCAA213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCAB213C5CF7006D8E23 /* usdSkel */,
+				6B02CCAD213C5CF7006D8E23 /* generatedSchema.usda */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCAB213C5CF7006D8E23 /* usdSkel */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCAC213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdSkel;
+			sourceTree = "<group>";
+		};
+		6B02CCAE213C5CF7006D8E23 /* usdHydra */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCAF213C5CF7006D8E23 /* resources */,
+			);
+			path = usdHydra;
+			sourceTree = "<group>";
+		};
+		6B02CCAF213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB0213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCB1213C5CF7006D8E23 /* usdRi */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB2213C5CF7006D8E23 /* resources */,
+			);
+			path = usdRi;
+			sourceTree = "<group>";
+		};
+		6B02CCB2213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB3213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCB4213C5CF7006D8E23 /* usdRi */,
+				6B02CCB6213C5CF7006D8E23 /* generatedSchema.usda */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCB4213C5CF7006D8E23 /* usdRi */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB5213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdRi;
+			sourceTree = "<group>";
+		};
+		6B02CCB7213C5CF7006D8E23 /* glf */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB8213C5CF7006D8E23 /* resources */,
+			);
+			path = glf;
+			sourceTree = "<group>";
+		};
+		6B02CCB8213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCB9213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCBA213C5CF7006D8E23 /* shaders */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCBA213C5CF7006D8E23 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCBB213C5CF7006D8E23 /* ptexTexture.glslfx */,
+				6B02CCBC213C5CF7006D8E23 /* simpleShadowMapShader.glslfx */,
+				6B02CCBD213C5CF7006D8E23 /* pcfShader.glslfx */,
+				6B02CCBE213C5CF7006D8E23 /* simpleLighting.glslfx */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		6B02CCBF213C5CF7006D8E23 /* usdImaging */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC0213C5CF7006D8E23 /* resources */,
+			);
+			path = usdImaging;
+			sourceTree = "<group>";
+		};
+		6B02CCC0213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC1213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCC2213C5CF7006D8E23 /* usd */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC3213C5CF7006D8E23 /* resources */,
+			);
+			path = usd;
+			sourceTree = "<group>";
+		};
+		6B02CCC3213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC4213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCC5213C5CF7006D8E23 /* generatedSchema.usda */,
+				6B02CCC6213C5CF7006D8E23 /* usd */,
+				6B02CCC8213C5CF7006D8E23 /* codegenTemplates */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCC6213C5CF7006D8E23 /* usd */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC7213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usd;
+			sourceTree = "<group>";
+		};
+		6B02CCC8213C5CF7006D8E23 /* codegenTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCC9213C5CF7006D8E23 /* schemaClass.cpp */,
+				6B02CCCA213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCCB213C5CF7006D8E23 /* tokens.h */,
+				6B02CCCC213C5CF7006D8E23 /* api.h */,
+				6B02CCCD213C5CF7006D8E23 /* schemaClass.h */,
+				6B02CCCE213C5CF7006D8E23 /* wrapSchemaClass.cpp */,
+				6B02CCCF213C5CF7006D8E23 /* wrapTokens.cpp */,
+				6B02CCD0213C5CF7006D8E23 /* tokens.cpp */,
+			);
+			path = codegenTemplates;
+			sourceTree = "<group>";
+		};
+		6B02CCD1213C5CF7006D8E23 /* usdLux */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCD2213C5CF7006D8E23 /* resources */,
+			);
+			path = usdLux;
+			sourceTree = "<group>";
+		};
+		6B02CCD2213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCD3213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCD4213C5CF7006D8E23 /* generatedSchema.usda */,
+				6B02CCD5213C5CF7006D8E23 /* usdLux */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCD5213C5CF7006D8E23 /* usdLux */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCD6213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdLux;
+			sourceTree = "<group>";
+		};
+		6B02CCD7213C5CF7006D8E23 /* ar */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCD8213C5CF7006D8E23 /* resources */,
+			);
+			path = ar;
+			sourceTree = "<group>";
+		};
+		6B02CCD8213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCD9213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCDA213C5CF7006D8E23 /* usdGeom */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCDB213C5CF7006D8E23 /* resources */,
+			);
+			path = usdGeom;
+			sourceTree = "<group>";
+		};
+		6B02CCDB213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCDC213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCDD213C5CF7006D8E23 /* generatedSchema.usda */,
+				6B02CCDE213C5CF7006D8E23 /* usdGeom */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCDE213C5CF7006D8E23 /* usdGeom */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCDF213C5CF7006D8E23 /* schema.usda */,
+			);
+			path = usdGeom;
+			sourceTree = "<group>";
+		};
+		6B02CCE0213C5CF7006D8E23 /* hdStream */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE1213C5CF7006D8E23 /* resources */,
+			);
+			path = hdStream;
+			sourceTree = "<group>";
+		};
+		6B02CCE1213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE2213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCE3213C5CF7006D8E23 /* ndr */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE4213C5CF7006D8E23 /* resources */,
+			);
+			path = ndr;
+			sourceTree = "<group>";
+		};
+		6B02CCE4213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE5213C5CF7006D8E23 /* plugInfo.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCE6213C5CF7006D8E23 /* usdImagingGL */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE7213C5CF7006D8E23 /* resources */,
+			);
+			path = usdImagingGL;
+			sourceTree = "<group>";
+		};
+		6B02CCE7213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCE8213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCE9213C5CF7006D8E23 /* shaders */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCE9213C5CF7006D8E23 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCEA213C5CF7006D8E23 /* previewSurface.glslfx */,
+				6B02CCEB213C5CF7006D8E23 /* drawMode.glslfx */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		6B02CCEC213C5CF7006D8E23 /* hdx */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCED213C5CF7006D8E23 /* resources */,
+			);
+			path = hdx;
+			sourceTree = "<group>";
+		};
+		6B02CCED213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCEE213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCEF213C5CF7006D8E23 /* shaders */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCEF213C5CF7006D8E23 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCF0213C5CF7006D8E23 /* renderPassShadowShader.glslfx */,
+				6B02CCF1213C5CF7006D8E23 /* simpleLightingShader.glslfx */,
+				6B02CCF2213C5CF7006D8E23 /* renderPassShader.glslfx */,
+				6B02CCF3213C5CF7006D8E23 /* renderPass.glslfx */,
+				6B02CCF4213C5CF7006D8E23 /* selection.glslfx */,
+				6B02CCF5213C5CF7006D8E23 /* renderPassIdShader.glslfx */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
+		6B02CCF6213C5CF7006D8E23 /* hdSt */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCF7213C5CF7006D8E23 /* resources */,
+			);
+			path = hdSt;
+			sourceTree = "<group>";
+		};
+		6B02CCF7213C5CF7006D8E23 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCF8213C5CF7006D8E23 /* plugInfo.json */,
+				6B02CCF9213C5CF7006D8E23 /* shaders */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		6B02CCF9213C5CF7006D8E23 /* shaders */ = {
+			isa = PBXGroup;
+			children = (
+				6B02CCFA213C5CF7006D8E23 /* fallbackLightingShader.glslfx */,
+				6B02CCFB213C5CF7006D8E23 /* frustumCull.glslfx */,
+				6B02CCFC213C5CF7006D8E23 /* mesh.glslfx */,
+				6B02CCFD213C5CF7006D8E23 /* lighting.glslfx */,
+				6B02CCFE213C5CF7006D8E23 /* fallbackLighting.glslfx */,
+				6B02CCFF213C5CF7006D8E23 /* pointId.glslfx */,
+				6B02CD00213C5CF7006D8E23 /* meshNormal.glslfx */,
+				6B02CD01213C5CF7006D8E23 /* edgeId.glslfx */,
+				6B02CD02213C5CF7006D8E23 /* lightingIntegrationShader.glslfx */,
+				6B02CD03213C5CF7006D8E23 /* ptexTexture.glslfx */,
+				6B02CD04213C5CF7006D8E23 /* compute.glslfx */,
+				6B02CD05213C5CF7006D8E23 /* renderPassShader.glslfx */,
+				6B02CD06213C5CF7006D8E23 /* meshWire.glslfx */,
+				6B02CD07213C5CF7006D8E23 /* points.glslfx */,
+				6B02CD08213C5CF7006D8E23 /* renderPass.glslfx */,
+				6B02CD09213C5CF7006D8E23 /* terminals.glslfx */,
+				6B02CD0A213C5CF7006D8E23 /* fallbackSurface.glslfx */,
+				6B02CD0B213C5CF7006D8E23 /* basisCurves.glslfx */,
+				6B02CD0C213C5CF7006D8E23 /* instancing.glslfx */,
+			);
+			path = shaders;
+			sourceTree = "<group>";
+		};
 		6B46E89D21271E310057FEEA = {
 			isa = PBXGroup;
 			children = (
+				6B02CC8B213C5B6B006D8E23 /* deps */,
 				6B46E8A821271E310057FEEA /* usdview */,
 				6B46E8B921271E330057FEEA /* usdviewTests */,
 				6B46E8A721271E310057FEEA /* Products */,
@@ -307,37 +866,48 @@
 		DAB7366421293661003E070F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				DAB2E79A213B3796001C880B /* libGLEW.a */,
-				DAB2E799213B3796001C880B /* libHalf.la */,
-				DAB2E79B213B3796001C880B /* libIex-2_2.la */,
-				DAB2E795213B3796001C880B /* libIexMath-2_2.la */,
-				DAB2E798213B3796001C880B /* libIlmThread-2_2.la */,
-				DAB2E793213B3796001C880B /* libImath-2_2.la */,
-				DAB2E794213B3796001C880B /* libosdCPU.a */,
-				DAB2E797213B3796001C880B /* libosdGPU.a */,
-				DAB2E796213B3796001C880B /* libz.a */,
-				6B72C7702139C0E300DB1674 /* libboost_atomic.dylib */,
-				6B72C7762139C0E400DB1674 /* libboost_date_time.dylib */,
-				6B72C76B2139C0E300DB1674 /* libboost_filesystem.dylib */,
-				6B72C7662139C0E300DB1674 /* libboost_program_options.dylib */,
-				6B72C7642139C0E300DB1674 /* libboost_regex.dylib */,
-				6B72C76C2139C0E300DB1674 /* libboost_system.dylib */,
-				6B72C7652139C0E300DB1674 /* libboost_thread.dylib */,
-				6B72C7742139C0E400DB1674 /* libGLEW.2.0.0.dylib */,
-				6B72C7752139C0E400DB1674 /* libHalf.12.0.0.dylib */,
-				6B72C76E2139C0E300DB1674 /* libIex-2_2.12.0.0.dylib */,
-				6B72C7782139C0E400DB1674 /* libIexMath-2_2.12.0.0.dylib */,
-				6B72C7682139C0E300DB1674 /* libIlmImf-2_2.22.0.0.dylib */,
-				6B72C7732139C0E300DB1674 /* libIlmImfUtil-2_2.22.0.0.dylib */,
-				6B72C7672139C0E300DB1674 /* libIlmThread-2_2.12.0.0.dylib */,
-				6B72C7792139C0E400DB1674 /* libImath-2_2.12.0.0.dylib */,
-				6B72C7772139C0E400DB1674 /* libosdCPU.3.1.1.dylib */,
-				6B72C7692139C0E300DB1674 /* libosdGPU.3.1.1.dylib */,
-				6B72C7712139C0E300DB1674 /* libtbb.dylib */,
-				6B72C76A2139C0E300DB1674 /* libtbbmalloc_proxy.dylib */,
-				6B72C76F2139C0E300DB1674 /* libtbbmalloc.dylib */,
-				6B72C7722139C0E300DB1674 /* libusd_ms.dylib */,
-				6B72C76D2139C0E300DB1674 /* libz.1.2.11.dylib */,
+				6B02CD2D213C5D2B006D8E23 /* libboost_atomic.dylib */,
+				6B02CD1F213C5D2A006D8E23 /* libboost_date_time.dylib */,
+				6B02CD16213C5D29006D8E23 /* libboost_filesystem.dylib */,
+				6B02CD10213C5D29006D8E23 /* libboost_program_options.dylib */,
+				6B02CD0D213C5D29006D8E23 /* libboost_regex.dylib */,
+				6B02CD28213C5D2B006D8E23 /* libboost_system.dylib */,
+				6B02CD0E213C5D29006D8E23 /* libboost_thread.dylib */,
+				6B02CD31213C5D2B006D8E23 /* libGLEW.2.0.0.dylib */,
+				6B02CD32213C5D2B006D8E23 /* libGLEW.2.0.dylib */,
+				6B02CD20213C5D2A006D8E23 /* libGLEW.dylib */,
+				6B02CD1E213C5D2A006D8E23 /* libHalf.12.0.0.dylib */,
+				6B02CD23213C5D2A006D8E23 /* libHalf.12.dylib */,
+				6B02CD2B213C5D2B006D8E23 /* libHalf.dylib */,
+				6B02CD29213C5D2B006D8E23 /* libIex-2_2.12.0.0.dylib */,
+				6B02CD27213C5D2A006D8E23 /* libIex-2_2.12.dylib */,
+				6B02CD0F213C5D29006D8E23 /* libIex-2_2.dylib */,
+				6B02CD22213C5D2A006D8E23 /* libIexMath-2_2.12.0.0.dylib */,
+				6B02CD36213C5D2C006D8E23 /* libIexMath-2_2.12.dylib */,
+				6B02CD35213C5D2B006D8E23 /* libIexMath-2_2.dylib */,
+				6B02CD24213C5D2A006D8E23 /* libIlmImf-2_2.22.0.0.dylib */,
+				6B02CD1A213C5D2A006D8E23 /* libIlmImf-2_2.22.dylib */,
+				6B02CD18213C5D29006D8E23 /* libIlmImf-2_2.dylib */,
+				6B02CD30213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.0.0.dylib */,
+				6B02CD2A213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.dylib */,
+				6B02CD33213C5D2B006D8E23 /* libIlmImfUtil-2_2.dylib */,
+				6B02CD11213C5D29006D8E23 /* libIlmThread-2_2.12.0.0.dylib */,
+				6B02CD1D213C5D2A006D8E23 /* libIlmThread-2_2.12.dylib */,
+				6B02CD25213C5D2A006D8E23 /* libIlmThread-2_2.dylib */,
+				6B02CD34213C5D2B006D8E23 /* libImath-2_2.12.0.0.dylib */,
+				6B02CD26213C5D2A006D8E23 /* libImath-2_2.12.dylib */,
+				6B02CD2F213C5D2B006D8E23 /* libImath-2_2.dylib */,
+				6B02CD21213C5D2A006D8E23 /* libosdCPU.3.1.1.dylib */,
+				6B02CD2C213C5D2B006D8E23 /* libosdCPU.dylib */,
+				6B02CD14213C5D29006D8E23 /* libosdGPU.3.1.1.dylib */,
+				6B02CD12213C5D29006D8E23 /* libosdGPU.dylib */,
+				6B02CD1B213C5D2A006D8E23 /* libtbb.dylib */,
+				6B02CD15213C5D29006D8E23 /* libtbbmalloc_proxy.dylib */,
+				6B02CD2E213C5D2B006D8E23 /* libtbbmalloc.dylib */,
+				6B02CD1C213C5D2A006D8E23 /* libusd_ms.dylib */,
+				6B02CD17213C5D29006D8E23 /* libz.1.2.11.dylib */,
+				6B02CD19213C5D29006D8E23 /* libz.1.dylib */,
+				6B02CD13213C5D29006D8E23 /* libz.dylib */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -354,6 +924,7 @@
 				6B46E8A221271E310057FEEA /* Sources */,
 				6B46E8A321271E310057FEEA /* Frameworks */,
 				6B46E8A421271E310057FEEA /* Resources */,
+				6B02CD8E213C5EB9006D8E23 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -440,6 +1011,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		6B02CD8E213C5EB9006D8E23 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp -r ${PROJECT_DIR}/deps/lib/usd ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\n";
+		};
 		6B4D77D0213B661600B150B2 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

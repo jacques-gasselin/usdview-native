@@ -8,8 +8,19 @@
 import Cocoa
 
 class Document: NSDocument {
+    var stagePath: String = ""
+
     override func read(from url: URL, ofType _: String) throws {
-        let stagePath = url.path
-        let info = UsdStageInfo(stagePath: stagePath)
+        stagePath = url.path
+
+        // We should wait to load until the Open dialogue is gone.
+        // Otherwise debugging is a nightmare.
+        DispatchQueue.main.async {
+            self.openStage()
+        }
+    }
+
+    func openStage() {
+        _ = UsdStageInfo(stagePath: stagePath)
     }
 }
