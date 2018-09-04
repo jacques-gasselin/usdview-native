@@ -39,8 +39,9 @@ $ brew install cmake
 <details>
 <summary>Source Example</summary>
 <p>
+
 ```bash
-#--- CMake ---
+$ #--- CMake ---
 $ curl -o cmake-3.10.0.tar.gz -L -C - https://cmake.org/files/v3.10/cmake-3.10.0.tar.gz
 $ tar zxf cmake-3.10.0.tar.gz
 $ pushd cmake-3.10.0
@@ -49,6 +50,7 @@ $ make -j8
 $ make install
 $ popd
 ```
+
 </p>
 </details>
 
