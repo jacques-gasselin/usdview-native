@@ -74,6 +74,26 @@
 		6B46E8BB21271E330057FEEA /* UsdviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B46E8BA21271E330057FEEA /* UsdviewTests.swift */; };
 		6B4C6980213BA07900A3E692 /* DocumentController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C697F213BA07900A3E692 /* DocumentController.swift */; };
 		6B4C6982213BA64D00A3E692 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4C6981213BA64D00A3E692 /* Document.swift */; };
+		6B7D1929213E002C005AA1B4 /* libGLEW.2.0.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD32213C5D2B006D8E23 /* libGLEW.2.0.dylib */; };
+		6B7D192A213E002C005AA1B4 /* libGLEW.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD20213C5D2A006D8E23 /* libGLEW.dylib */; };
+		6B7D192B213E002C005AA1B4 /* libHalf.12.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD23213C5D2A006D8E23 /* libHalf.12.dylib */; };
+		6B7D192C213E002C005AA1B4 /* libHalf.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2B213C5D2B006D8E23 /* libHalf.dylib */; };
+		6B7D192D213E002C005AA1B4 /* libIex-2_2.12.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD27213C5D2A006D8E23 /* libIex-2_2.12.dylib */; };
+		6B7D192E213E002C005AA1B4 /* libIex-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD0F213C5D29006D8E23 /* libIex-2_2.dylib */; };
+		6B7D192F213E002C005AA1B4 /* libIexMath-2_2.12.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD36213C5D2C006D8E23 /* libIexMath-2_2.12.dylib */; };
+		6B7D1930213E002C005AA1B4 /* libIexMath-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD35213C5D2B006D8E23 /* libIexMath-2_2.dylib */; };
+		6B7D1931213E002C005AA1B4 /* libIlmImf-2_2.22.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1A213C5D2A006D8E23 /* libIlmImf-2_2.22.dylib */; };
+		6B7D1932213E002C005AA1B4 /* libIlmImf-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD18213C5D29006D8E23 /* libIlmImf-2_2.dylib */; };
+		6B7D1933213E002C005AA1B4 /* libIlmImfUtil-2_2.22.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2A213C5D2B006D8E23 /* libIlmImfUtil-2_2.22.dylib */; };
+		6B7D1934213E002C005AA1B4 /* libIlmImfUtil-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD33213C5D2B006D8E23 /* libIlmImfUtil-2_2.dylib */; };
+		6B7D1935213E002C005AA1B4 /* libIlmThread-2_2.12.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD1D213C5D2A006D8E23 /* libIlmThread-2_2.12.dylib */; };
+		6B7D1936213E002C005AA1B4 /* libIlmThread-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD25213C5D2A006D8E23 /* libIlmThread-2_2.dylib */; };
+		6B7D1937213E002C005AA1B4 /* libImath-2_2.12.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD26213C5D2A006D8E23 /* libImath-2_2.12.dylib */; };
+		6B7D1938213E002C005AA1B4 /* libImath-2_2.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD2F213C5D2B006D8E23 /* libImath-2_2.dylib */; };
+		6B7D1939213E002C005AA1B4 /* libosdGPU.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD12213C5D29006D8E23 /* libosdGPU.dylib */; };
+		6B7D193A213E002C005AA1B4 /* libtbbmalloc_proxy.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD15213C5D29006D8E23 /* libtbbmalloc_proxy.dylib */; };
+		6B7D193B213E002C005AA1B4 /* libz.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD19213C5D29006D8E23 /* libz.1.dylib */; };
+		6B7D193C213E002C005AA1B4 /* libz.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 6B02CD13213C5D29006D8E23 /* libz.dylib */; };
 		DAB2E7AB213B3C33001C880B /* usd.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A5213B3C32001C880B /* usd.swift */; };
 		DAB2E7AC213B3C33001C880B /* sdf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A7213B3C33001C880B /* sdf.cpp */; };
 		DAB2E7AD213B3C33001C880B /* usd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DAB2E7A8213B3C33001C880B /* usd.cpp */; };
@@ -97,6 +117,26 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				6B7D1929213E002C005AA1B4 /* libGLEW.2.0.dylib in CopyFiles */,
+				6B7D192A213E002C005AA1B4 /* libGLEW.dylib in CopyFiles */,
+				6B7D192B213E002C005AA1B4 /* libHalf.12.dylib in CopyFiles */,
+				6B7D192C213E002C005AA1B4 /* libHalf.dylib in CopyFiles */,
+				6B7D192D213E002C005AA1B4 /* libIex-2_2.12.dylib in CopyFiles */,
+				6B7D192E213E002C005AA1B4 /* libIex-2_2.dylib in CopyFiles */,
+				6B7D192F213E002C005AA1B4 /* libIexMath-2_2.12.dylib in CopyFiles */,
+				6B7D1930213E002C005AA1B4 /* libIexMath-2_2.dylib in CopyFiles */,
+				6B7D1931213E002C005AA1B4 /* libIlmImf-2_2.22.dylib in CopyFiles */,
+				6B7D1932213E002C005AA1B4 /* libIlmImf-2_2.dylib in CopyFiles */,
+				6B7D1933213E002C005AA1B4 /* libIlmImfUtil-2_2.22.dylib in CopyFiles */,
+				6B7D1934213E002C005AA1B4 /* libIlmImfUtil-2_2.dylib in CopyFiles */,
+				6B7D1935213E002C005AA1B4 /* libIlmThread-2_2.12.dylib in CopyFiles */,
+				6B7D1936213E002C005AA1B4 /* libIlmThread-2_2.dylib in CopyFiles */,
+				6B7D1937213E002C005AA1B4 /* libImath-2_2.12.dylib in CopyFiles */,
+				6B7D1938213E002C005AA1B4 /* libImath-2_2.dylib in CopyFiles */,
+				6B7D1939213E002C005AA1B4 /* libosdGPU.dylib in CopyFiles */,
+				6B7D193A213E002C005AA1B4 /* libtbbmalloc_proxy.dylib in CopyFiles */,
+				6B7D193B213E002C005AA1B4 /* libz.1.dylib in CopyFiles */,
+				6B7D193C213E002C005AA1B4 /* libz.dylib in CopyFiles */,
 				6B02CD61213C5D3E006D8E23 /* libboost_atomic.dylib in CopyFiles */,
 				6B02CD62213C5D3E006D8E23 /* libboost_date_time.dylib in CopyFiles */,
 				6B02CD63213C5D3E006D8E23 /* libboost_filesystem.dylib in CopyFiles */,
@@ -919,6 +959,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6B46E8CA21271E330057FEEA /* Build configuration list for PBXNativeTarget "usdview" */;
 			buildPhases = (
+				6B7D1928213DFFCC005AA1B4 /* Run Script */,
 				6B4D77CB213B62A200B150B2 /* CopyFiles */,
 				6B4D77D0213B661600B150B2 /* ShellScript */,
 				6B46E8A221271E310057FEEA /* Sources */,
@@ -1036,6 +1077,20 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "cd ${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}\n#don't change ids of the copied in system swift libraries\nlibs=$(ls | grep dylib | grep -v swift)\n#echo $libs\nfor l in $libs\ndo\n    #echo $l\n    install_name_tool -id @executable_path/../Frameworks/$l $l\ndone";
+		};
+		6B7D1928213DFFCC005AA1B4 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cd ${PROJECT_DIR}/deps/lib\nfor l in *.dylib\ndo\ninstall_name_tool -id @executable_path/../Frameworks/$l $l\ndone\n\n#fixup the internal id references to the shared deps libs.\nGLEW_LIB_NAME=libGLEW.2.0.0.dylib\nGLEW_LIB_OLD_PATH=${PROJECT_DIR}/deps/lib/${GLEW_LIB_NAME}\nGLEW_LIB_NEW_PATH=@executable_path/../Frameworks/${GLEW_LIB_NAME}\ninstall_name_tool -change ${GLEW_LIB_OLD_PATH} ${GLEW_LIB_NEW_PATH} ${PROJECT_DIR}/deps/lib/libosdGPU.dylib\ninstall_name_tool -change ${GLEW_LIB_OLD_PATH} ${GLEW_LIB_NEW_PATH}  ${PROJECT_DIR}/deps/lib/libosdGPU.3.1.1.dylib\ninstall_name_tool -change ${GLEW_LIB_OLD_PATH} ${GLEW_LIB_NEW_PATH} ${PROJECT_DIR}/deps/lib/libusd_ms.dylib\n";
 		};
 /* End PBXShellScriptBuildPhase section */
 
