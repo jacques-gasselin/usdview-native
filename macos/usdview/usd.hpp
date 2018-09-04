@@ -7,23 +7,23 @@
 extern "C" {
 #endif // __cplusplus
 
-const char **_getPrimInfo(void *stagePtr, int *numPrims);
+const char **usdffi_getPrimInfo(void *stagePtr, int *numPrims);
 
-double _getStartTimeCode(void *stagePtr);
+double usdffi_getStartTimeCode(void *stagePtr);
 
-double _getEndTimeCode(void *stagePtr);
+double usdffi_getEndTimeCode(void *stagePtr);
 
-double _getTimeCodesPerSecond(void *stagePtr);
+double usdffi_getTimeCodesPerSecond(void *stagePtr);
 
-const char *_getInterpolationType(void *stagePtr);
+const char *usdffi_getInterpolationType(void *stagePtr);
 
-void *_openStage(const char *sPath);
+void *usdffi_openStage(const char *sPath);
 
-void _reloadStage(void *stagePtr);
+void usdffi_reloadStage(void *stagePtr);
 
-void _setDefaultPrim(void *stagePtr, const char *primPath);
+void usdffi_setDefaultPrim(void *stagePtr, const char *primPath);
 
-const char *_getDefaultPrim(void *stagePtr);
+const char *usdffi_getDefaultPrim(void *stagePtr);
 
 #if __cplusplus
 }
