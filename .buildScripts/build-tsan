@@ -1,0 +1,3 @@
+#!/bin/sh
+
+xcodebuild clean build -enableThreadSanitizer YES -project macos/usdview.xcodeproj/ -scheme usdview -destination "platform=macOS"
